@@ -1,0 +1,4882 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_f1b804de56e648dfbec11f9003a134f4 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f1b804de56e648dfbec11f9003a134f4" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_f1b804de56e648dfbec11f9003a134f4 = L.map(
+                                  'map_f1b804de56e648dfbec11f9003a134f4',
+                                  {center: [55.4792046,37.3273304],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_15fe4d55faee4b9e9055a4a6ce86bf6a = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+        
+    
+            var circle_marker_30928277dd9049898719d0ccfb9c0597 = L.circleMarker(
+                [55.62731,37.43956],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_a8249fddbd464935a91fa5e192b43bb5 = L.popup({maxWidth: '300'});
+
+            
+                var html_6805a6d615514a90beb3913a84d57640 = $('<div id="html_6805a6d615514a90beb3913a84d57640" style="width: 100.0%; height: 100.0%;">&#34;Мосрентген&#34; - Cluster 0</div>')[0];
+                popup_a8249fddbd464935a91fa5e192b43bb5.setContent(html_6805a6d615514a90beb3913a84d57640);
+            
+
+            circle_marker_30928277dd9049898719d0ccfb9c0597.bindPopup(popup_a8249fddbd464935a91fa5e192b43bb5);
+
+            
+        
+    
+            var circle_marker_d85416cb7f7b451f8c038d9978882e4b = L.circleMarker(
+                [55.75842,37.51393],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_6a043db106fb4fdbb6bcd44f6045c430 = L.popup({maxWidth: '300'});
+
+            
+                var html_64a6221ebf7644b99bc34eba66d63bcf = $('<div id="html_64a6221ebf7644b99bc34eba66d63bcf" style="width: 100.0%; height: 100.0%;">Пресненский - Cluster 0</div>')[0];
+                popup_6a043db106fb4fdbb6bcd44f6045c430.setContent(html_64a6221ebf7644b99bc34eba66d63bcf);
+            
+
+            circle_marker_d85416cb7f7b451f8c038d9978882e4b.bindPopup(popup_6a043db106fb4fdbb6bcd44f6045c430);
+
+            
+        
+    
+            var circle_marker_6a8ae3d932d2418887dc143e1ceb9f75 = L.circleMarker(
+                [55.80028,37.69857],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_734ffe81997545a9867db540155c5568 = L.popup({maxWidth: '300'});
+
+            
+                var html_ff4790d52d7e4d6aba21f69c58994d69 = $('<div id="html_ff4790d52d7e4d6aba21f69c58994d69" style="width: 100.0%; height: 100.0%;">Преображенское - Cluster 0</div>')[0];
+                popup_734ffe81997545a9867db540155c5568.setContent(html_ff4790d52d7e4d6aba21f69c58994d69);
+            
+
+            circle_marker_6a8ae3d932d2418887dc143e1ceb9f75.bindPopup(popup_734ffe81997545a9867db540155c5568);
+
+            
+        
+    
+            var circle_marker_2e37740def6c4d2f84bf208b3aa5f62d = L.circleMarker(
+                [55.8291,37.39444],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_89fc8332cd91453da9a879cc6d09570e = L.popup({maxWidth: '300'});
+
+            
+                var html_f24cd33eec11408e8d4c2f633f3b0346 = $('<div id="html_f24cd33eec11408e8d4c2f633f3b0346" style="width: 100.0%; height: 100.0%;">Покровское-Стрешнево - Cluster 0</div>')[0];
+                popup_89fc8332cd91453da9a879cc6d09570e.setContent(html_f24cd33eec11408e8d4c2f633f3b0346);
+            
+
+            circle_marker_2e37740def6c4d2f84bf208b3aa5f62d.bindPopup(popup_89fc8332cd91453da9a879cc6d09570e);
+
+            
+        
+    
+            var circle_marker_325fea1e4cb14a389cb2d072d00c561b = L.circleMarker(
+                [55.75198,37.71961],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_6724759800024e7f98534e5be391a43e = L.popup({maxWidth: '300'});
+
+            
+                var html_c0bdda77223f4482b8331edfeeaf266d = $('<div id="html_c0bdda77223f4482b8331edfeeaf266d" style="width: 100.0%; height: 100.0%;">Перово - Cluster 0</div>')[0];
+                popup_6724759800024e7f98534e5be391a43e.setContent(html_c0bdda77223f4482b8331edfeeaf266d);
+            
+
+            circle_marker_325fea1e4cb14a389cb2d072d00c561b.bindPopup(popup_6724759800024e7f98534e5be391a43e);
+
+            
+        
+    
+            var circle_marker_a9ddefd160dd42f4bfc3065d8a157ab7 = L.circleMarker(
+                [55.69884,37.40216],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_29ef1cefe69841d0add4add72db009f8 = L.popup({maxWidth: '300'});
+
+            
+                var html_2ddf71fc28534590959935f9f974effc = $('<div id="html_2ddf71fc28534590959935f9f974effc" style="width: 100.0%; height: 100.0%;">Очаково-Матвеевское - Cluster 0</div>')[0];
+                popup_29ef1cefe69841d0add4add72db009f8.setContent(html_2ddf71fc28534590959935f9f974effc);
+            
+
+            circle_marker_a9ddefd160dd42f4bfc3065d8a157ab7.bindPopup(popup_29ef1cefe69841d0add4add72db009f8);
+
+            
+        
+    
+            var circle_marker_3069f66a1be7448bae9c794a3b9870f8 = L.circleMarker(
+                [55.87018,37.57137],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_f0fae8e98649485da79e53045fc38b39 = L.popup({maxWidth: '300'});
+
+            
+                var html_d7a3882fbbe343b8bfbfc35eac068bf7 = $('<div id="html_d7a3882fbbe343b8bfbfc35eac068bf7" style="width: 100.0%; height: 100.0%;">Отрадное - Cluster 0</div>')[0];
+                popup_f0fae8e98649485da79e53045fc38b39.setContent(html_d7a3882fbbe343b8bfbfc35eac068bf7);
+            
+
+            circle_marker_3069f66a1be7448bae9c794a3b9870f8.bindPopup(popup_f0fae8e98649485da79e53045fc38b39);
+
+            
+        
+    
+            var circle_marker_38fb6545820e462295d47aea26ed3e7b = L.circleMarker(
+                [55.7284,37.68047],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_8208deb8d04046cbbbaafc994382b729 = L.popup({maxWidth: '300'});
+
+            
+                var html_e7f646a36d234cd58b909f8fb231c86d = $('<div id="html_e7f646a36d234cd58b909f8fb231c86d" style="width: 100.0%; height: 100.0%;">Нижегородский - Cluster 0</div>')[0];
+                popup_8208deb8d04046cbbbaafc994382b729.setContent(html_e7f646a36d234cd58b909f8fb231c86d);
+            
+
+            circle_marker_38fb6545820e462295d47aea26ed3e7b.bindPopup(popup_8208deb8d04046cbbbaafc994382b729);
+
+            
+        
+    
+            var circle_marker_ac869e93475e41f69e3cf9106fbfc05c = L.circleMarker(
+                [55.8408,37.66347],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_9599ee6ec98b4b8b94f448b778bd5d37 = L.popup({maxWidth: '300'});
+
+            
+                var html_325708078e3f43288eea6773f899c4f5 = $('<div id="html_325708078e3f43288eea6773f899c4f5" style="width: 100.0%; height: 100.0%;">Ярославский - Cluster 0</div>')[0];
+                popup_9599ee6ec98b4b8b94f448b778bd5d37.setContent(html_325708078e3f43288eea6773f899c4f5);
+            
+
+            circle_marker_ac869e93475e41f69e3cf9106fbfc05c.bindPopup(popup_9599ee6ec98b4b8b94f448b778bd5d37);
+
+            
+        
+    
+            var circle_marker_b640216d8d1649ae9cf330d3470f9428 = L.circleMarker(
+                [55.83595,37.63202],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_ac465b73d22947ada4e72f4189e9602f = L.popup({maxWidth: '300'});
+
+            
+                var html_bd21559daaea4fcb96fbc9b87db57833 = $('<div id="html_bd21559daaea4fcb96fbc9b87db57833" style="width: 100.0%; height: 100.0%;">Ростокино - Cluster 0</div>')[0];
+                popup_ac465b73d22947ada4e72f4189e9602f.setContent(html_bd21559daaea4fcb96fbc9b87db57833);
+            
+
+            circle_marker_b640216d8d1649ae9cf330d3470f9428.bindPopup(popup_ac465b73d22947ada4e72f4189e9602f);
+
+            
+        
+    
+            var circle_marker_65ea88094b7f4348bafd7b444fe21e0d = L.circleMarker(
+                [55.93387,37.33132],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_2dce8ce11b37401d9ab58c8f66caeb3f = L.popup({maxWidth: '300'});
+
+            
+                var html_6025b3e342844894a2814061efa515b3 = $('<div id="html_6025b3e342844894a2814061efa515b3" style="width: 100.0%; height: 100.0%;">Молжаниновский - Cluster 0</div>')[0];
+                popup_2dce8ce11b37401d9ab58c8f66caeb3f.setContent(html_6025b3e342844894a2814061efa515b3);
+            
+
+            circle_marker_65ea88094b7f4348bafd7b444fe21e0d.bindPopup(popup_2dce8ce11b37401d9ab58c8f66caeb3f);
+
+            
+        
+    
+            var circle_marker_d6c1753744ac4c318e051c7e3f66b771 = L.circleMarker(
+                [56.00795,37.17853],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_750507b310f54c269ee819f9cfbea5b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_236c2ab7113a4317a07b253b2224dfc8 = $('<div id="html_236c2ab7113a4317a07b253b2224dfc8" style="width: 100.0%; height: 100.0%;">Матушкино - Cluster 0</div>')[0];
+                popup_750507b310f54c269ee819f9cfbea5b4.setContent(html_236c2ab7113a4317a07b253b2224dfc8);
+            
+
+            circle_marker_d6c1753744ac4c318e051c7e3f66b771.bindPopup(popup_750507b310f54c269ee819f9cfbea5b4);
+
+            
+        
+    
+            var circle_marker_586298e15bbf4a419cc3bffd4239f4da = L.circleMarker(
+                [55.79242,37.58886],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_ed251508b44246bf8b72b46f21a98880 = L.popup({maxWidth: '300'});
+
+            
+                var html_a1b4dbf0acc441a888d715d8361bc361 = $('<div id="html_a1b4dbf0acc441a888d715d8361bc361" style="width: 100.0%; height: 100.0%;">Марьина Роща - Cluster 0</div>')[0];
+                popup_ed251508b44246bf8b72b46f21a98880.setContent(html_a1b4dbf0acc441a888d715d8361bc361);
+            
+
+            circle_marker_586298e15bbf4a419cc3bffd4239f4da.bindPopup(popup_ed251508b44246bf8b72b46f21a98880);
+
+            
+        
+    
+            var circle_marker_fc4c898d84fa442ba7a7de4be7816a4c = L.circleMarker(
+                [55.84848,37.57377],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_c0e938bcc8a64ed6800d375833f74a8a = L.popup({maxWidth: '300'});
+
+            
+                var html_911cca9435bd4f659b459fa8f7abac6b = $('<div id="html_911cca9435bd4f659b459fa8f7abac6b" style="width: 100.0%; height: 100.0%;">Марфино - Cluster 0</div>')[0];
+                popup_c0e938bcc8a64ed6800d375833f74a8a.setContent(html_911cca9435bd4f659b459fa8f7abac6b);
+            
+
+            circle_marker_fc4c898d84fa442ba7a7de4be7816a4c.bindPopup(popup_c0e938bcc8a64ed6800d375833f74a8a);
+
+            
+        
+    
+            var circle_marker_86a0bb759c7a481986a477b279f6e78e = L.circleMarker(
+                [55.65852,37.71313],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_e9008768bd3f46bdbf1a540de266a1ba = L.popup({maxWidth: '300'});
+
+            
+                var html_35b96693121349d2b552e1a4e2f292a9 = $('<div id="html_35b96693121349d2b552e1a4e2f292a9" style="width: 100.0%; height: 100.0%;">Люблино - Cluster 0</div>')[0];
+                popup_e9008768bd3f46bdbf1a540de266a1ba.setContent(html_35b96693121349d2b552e1a4e2f292a9);
+            
+
+            circle_marker_86a0bb759c7a481986a477b279f6e78e.bindPopup(popup_e9008768bd3f46bdbf1a540de266a1ba);
+
+            
+        
+    
+            var circle_marker_7b913f2fe436453b99f13ad3b44a69cb = L.circleMarker(
+                [55.88369,37.67511],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_fc47ddbcc12f416da073025204a8ea49 = L.popup({maxWidth: '300'});
+
+            
+                var html_51aa6cd29acb443e88add33eac99bc17 = $('<div id="html_51aa6cd29acb443e88add33eac99bc17" style="width: 100.0%; height: 100.0%;">Лосиноостровский - Cluster 0</div>')[0];
+                popup_fc47ddbcc12f416da073025204a8ea49.setContent(html_51aa6cd29acb443e88add33eac99bc17);
+            
+
+            circle_marker_7b913f2fe436453b99f13ad3b44a69cb.bindPopup(popup_fc47ddbcc12f416da073025204a8ea49);
+
+            
+        
+    
+            var circle_marker_ee14142dc585470b8f933efd4ed59633 = L.circleMarker(
+                [55.90706,37.53686],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_2d90045450d84a8286d0db970d95b76e = L.popup({maxWidth: '300'});
+
+            
+                var html_1bf1079e4a8041d18303fcd6faf30ff9 = $('<div id="html_1bf1079e4a8041d18303fcd6faf30ff9" style="width: 100.0%; height: 100.0%;">Лианозово - Cluster 0</div>')[0];
+                popup_2d90045450d84a8286d0db970d95b76e.setContent(html_1bf1079e4a8041d18303fcd6faf30ff9);
+            
+
+            circle_marker_ee14142dc585470b8f933efd4ed59633.bindPopup(popup_2d90045450d84a8286d0db970d95b76e);
+
+            
+        
+    
+            var circle_marker_6f78234de66a4dd78fc5d8251a731641 = L.circleMarker(
+                [55.87958,37.43648],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_f8fdecd8a98c45a697f6a5f09b79b8b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_1fea4d9978fb4bb3ae9cb8b052df9da6 = $('<div id="html_1fea4d9978fb4bb3ae9cb8b052df9da6" style="width: 100.0%; height: 100.0%;">Левобережный - Cluster 0</div>')[0];
+                popup_f8fdecd8a98c45a697f6a5f09b79b8b2.setContent(html_1fea4d9978fb4bb3ae9cb8b052df9da6);
+            
+
+            circle_marker_6f78234de66a4dd78fc5d8251a731641.bindPopup(popup_f8fdecd8a98c45a697f6a5f09b79b8b2);
+
+            
+        
+    
+            var circle_marker_c0346d18649841988b9c8daccfa66072 = L.circleMarker(
+                [55.90146,37.36177],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_c6338f05fbdf4f2485f986a84208ef8a = L.popup({maxWidth: '300'});
+
+            
+                var html_58e3f0c7353b46bba714463c02e4429d = $('<div id="html_58e3f0c7353b46bba714463c02e4429d" style="width: 100.0%; height: 100.0%;">Куркино - Cluster 0</div>')[0];
+                popup_c6338f05fbdf4f2485f986a84208ef8a.setContent(html_58e3f0c7353b46bba714463c02e4429d);
+            
+
+            circle_marker_c0346d18649841988b9c8daccfa66072.bindPopup(popup_c6338f05fbdf4f2485f986a84208ef8a);
+
+            
+        
+    
+            var circle_marker_b0c1f99d3c8a4a538a45c6842fe3f369 = L.circleMarker(
+                [55.68286,37.3261],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_83df2fa158254731820469414b5ca03f = L.popup({maxWidth: '300'});
+
+            
+                var html_12162b67814b4c8c9050b460f2791a63 = $('<div id="html_12162b67814b4c8c9050b460f2791a63" style="width: 100.0%; height: 100.0%;">Можайский - Cluster 0</div>')[0];
+                popup_83df2fa158254731820469414b5ca03f.setContent(html_12162b67814b4c8c9050b460f2791a63);
+            
+
+            circle_marker_b0c1f99d3c8a4a538a45c6842fe3f369.bindPopup(popup_83df2fa158254731820469414b5ca03f);
+
+            
+        
+    
+            var circle_marker_e0518bac83f347749684056acf6ee6d1 = L.circleMarker(
+                [56.00083,37.20946],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_fe20bdc4fbef42daba4d2ee74f16db2a = L.popup({maxWidth: '300'});
+
+            
+                var html_4a30ddf5008d46719a92bbc9665fd51a = $('<div id="html_4a30ddf5008d46719a92bbc9665fd51a" style="width: 100.0%; height: 100.0%;">Савёлки - Cluster 0</div>')[0];
+                popup_fe20bdc4fbef42daba4d2ee74f16db2a.setContent(html_4a30ddf5008d46719a92bbc9665fd51a);
+            
+
+            circle_marker_e0518bac83f347749684056acf6ee6d1.bindPopup(popup_fe20bdc4fbef42daba4d2ee74f16db2a);
+
+            
+        
+    
+            var circle_marker_03ed3edbe1de4883bdcc27105de32f6b = L.circleMarker(
+                [55.80664,37.54846],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_18f3be1f6131490e81000292f6190be3 = L.popup({maxWidth: '300'});
+
+            
+                var html_328edff420df42e68078e8f8ae730669 = $('<div id="html_328edff420df42e68078e8f8ae730669" style="width: 100.0%; height: 100.0%;">Савёловский - Cluster 0</div>')[0];
+                popup_18f3be1f6131490e81000292f6190be3.setContent(html_328edff420df42e68078e8f8ae730669);
+            
+
+            circle_marker_03ed3edbe1de4883bdcc27105de32f6b.bindPopup(popup_18f3be1f6131490e81000292f6190be3);
+
+            
+        
+    
+            var circle_marker_b8a19e05470b4f52abbffe062a34a191 = L.circleMarker(
+                [55.85709,37.62504],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_483374839df046f6b8e8ad19fd820a8c = L.popup({maxWidth: '300'});
+
+            
+                var html_6e991dcd30464d1599344561c00cf71b = $('<div id="html_6e991dcd30464d1599344561c00cf71b" style="width: 100.0%; height: 100.0%;">Свиблово - Cluster 0</div>')[0];
+                popup_483374839df046f6b8e8ad19fd820a8c.setContent(html_6e991dcd30464d1599344561c00cf71b);
+            
+
+            circle_marker_b8a19e05470b4f52abbffe062a34a191.bindPopup(popup_483374839df046f6b8e8ad19fd820a8c);
+
+            
+        
+    
+            var circle_marker_fce74456c7c94e8a84565b009060ce08 = L.circleMarker(
+                [55.71421,37.57761],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_3cae43db5b424bacb5524125a4c7877b = L.popup({maxWidth: '300'});
+
+            
+                var html_ca39fd8aa94242e8b7f86cd5b8a59ce2 = $('<div id="html_ca39fd8aa94242e8b7f86cd5b8a59ce2" style="width: 100.0%; height: 100.0%;">Якиманка - Cluster 0</div>')[0];
+                popup_3cae43db5b424bacb5524125a4c7877b.setContent(html_ca39fd8aa94242e8b7f86cd5b8a59ce2);
+            
+
+            circle_marker_fce74456c7c94e8a84565b009060ce08.bindPopup(popup_3cae43db5b424bacb5524125a4c7877b);
+
+            
+        
+    
+            var circle_marker_d4e60a19999e48a68429c82f9f7a0614 = L.circleMarker(
+                [55.7307,37.66069],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_031c8f8a3e4247d8a2cffc1388c1588e = L.popup({maxWidth: '300'});
+
+            
+                var html_d90d7667140746fa891b6303bb6e71ab = $('<div id="html_d90d7667140746fa891b6303bb6e71ab" style="width: 100.0%; height: 100.0%;">Южнопортовый - Cluster 0</div>')[0];
+                popup_031c8f8a3e4247d8a2cffc1388c1588e.setContent(html_d90d7667140746fa891b6303bb6e71ab);
+            
+
+            circle_marker_d4e60a19999e48a68429c82f9f7a0614.bindPopup(popup_031c8f8a3e4247d8a2cffc1388c1588e);
+
+            
+        
+    
+            var circle_marker_3c424dd268b74366bd6feb8c7c9a5cc5 = L.circleMarker(
+                [55.79449,37.4461],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_4e67edd9da23415faf7235e17ac1a2df = L.popup({maxWidth: '300'});
+
+            
+                var html_0adcd9006805485b96e02b85786bb968 = $('<div id="html_0adcd9006805485b96e02b85786bb968" style="width: 100.0%; height: 100.0%;">Щукино - Cluster 0</div>')[0];
+                popup_4e67edd9da23415faf7235e17ac1a2df.setContent(html_0adcd9006805485b96e02b85786bb968);
+            
+
+            circle_marker_3c424dd268b74366bd6feb8c7c9a5cc5.bindPopup(popup_4e67edd9da23415faf7235e17ac1a2df);
+
+            
+        
+    
+            var circle_marker_996da1a99f3f4545b6449b96b804548a = L.circleMarker(
+                [55.65574,37.53909],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_f0503bc14486477981ab5a993e94d328 = L.popup({maxWidth: '300'});
+
+            
+                var html_1b291f0bbbd44c0f951880b654c01e41 = $('<div id="html_1b291f0bbbd44c0f951880b654c01e41" style="width: 100.0%; height: 100.0%;">Черёмушки - Cluster 0</div>')[0];
+                popup_f0503bc14486477981ab5a993e94d328.setContent(html_1b291f0bbbd44c0f951880b654c01e41);
+            
+
+            circle_marker_996da1a99f3f4545b6449b96b804548a.bindPopup(popup_f0503bc14486477981ab5a993e94d328);
+
+            
+        
+    
+            var circle_marker_5d3a2c8cd86d486c98245b1a158ceee8 = L.circleMarker(
+                [55.79112,37.50389],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_f9a729ce2f5241f8807ecf983d79bb0d = L.popup({maxWidth: '300'});
+
+            
+                var html_df0fbd9647094889bbf1cbd91caefdbf = $('<div id="html_df0fbd9647094889bbf1cbd91caefdbf" style="width: 100.0%; height: 100.0%;">Хорошёвский - Cluster 0</div>')[0];
+                popup_f9a729ce2f5241f8807ecf983d79bb0d.setContent(html_df0fbd9647094889bbf1cbd91caefdbf);
+            
+
+            circle_marker_5d3a2c8cd86d486c98245b1a158ceee8.bindPopup(popup_f9a729ce2f5241f8807ecf983d79bb0d);
+
+            
+        
+    
+            var circle_marker_5dcbfc6818a243a7b5b4014a7d05dedd = L.circleMarker(
+                [55.77909,37.40309],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_7679f9d0e676474a8b86a0e71c5a58e5 = L.popup({maxWidth: '300'});
+
+            
+                var html_9b64bf58d50f466e811f9b6d25637044 = $('<div id="html_9b64bf58d50f466e811f9b6d25637044" style="width: 100.0%; height: 100.0%;">Хорошёво-Мнёвники - Cluster 0</div>')[0];
+                popup_7679f9d0e676474a8b86a0e71c5a58e5.setContent(html_9b64bf58d50f466e811f9b6d25637044);
+            
+
+            circle_marker_5dcbfc6818a243a7b5b4014a7d05dedd.bindPopup(popup_7679f9d0e676474a8b86a0e71c5a58e5);
+
+            
+        
+    
+            var circle_marker_bda7f77b532449b2855020800f0ccbf1 = L.circleMarker(
+                [55.88272,37.46249],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_aa1ed00f6fd3466aacf2300d4caf39e1 = L.popup({maxWidth: '300'});
+
+            
+                var html_9424fa488f984666bab6520405e58cb9 = $('<div id="html_9424fa488f984666bab6520405e58cb9" style="width: 100.0%; height: 100.0%;">Ховрино - Cluster 0</div>')[0];
+                popup_aa1ed00f6fd3466aacf2300d4caf39e1.setContent(html_9424fa488f984666bab6520405e58cb9);
+            
+
+            circle_marker_bda7f77b532449b2855020800f0ccbf1.bindPopup(popup_aa1ed00f6fd3466aacf2300d4caf39e1);
+
+            
+        
+    
+            var circle_marker_0bdf3a2d54794cdc9eb970adc992ffed = L.circleMarker(
+                [55.72013,37.54108],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_7dbfdc5fabed445e8fa4b3bd7175c807 = L.popup({maxWidth: '300'});
+
+            
+                var html_12d5c263f2af4276b3c1d23e9916b430 = $('<div id="html_12d5c263f2af4276b3c1d23e9916b430" style="width: 100.0%; height: 100.0%;">Хамовники - Cluster 0</div>')[0];
+                popup_7dbfdc5fabed445e8fa4b3bd7175c807.setContent(html_12d5c263f2af4276b3c1d23e9916b430);
+            
+
+            circle_marker_0bdf3a2d54794cdc9eb970adc992ffed.bindPopup(popup_7dbfdc5fabed445e8fa4b3bd7175c807);
+
+            
+        
+    
+            var circle_marker_960103f821ba450ebbfe6c4e4cef9d38 = L.circleMarker(
+                [55.74821,37.42765],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_c35684a3289845fca35b49d8d1af3802 = L.popup({maxWidth: '300'});
+
+            
+                var html_1a69ea0389244d4089352e1ca51d6db3 = $('<div id="html_1a69ea0389244d4089352e1ca51d6db3" style="width: 100.0%; height: 100.0%;">Филёвский Парк - Cluster 0</div>')[0];
+                popup_c35684a3289845fca35b49d8d1af3802.setContent(html_1a69ea0389244d4089352e1ca51d6db3);
+            
+
+            circle_marker_960103f821ba450ebbfe6c4e4cef9d38.bindPopup(popup_c35684a3289845fca35b49d8d1af3802);
+
+            
+        
+    
+            var circle_marker_3245a6d1d2394dba850156519b6d435a = L.circleMarker(
+                [55.73717,37.43797],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_40fcce19004a4ff388dfa777efdd8715 = L.popup({maxWidth: '300'});
+
+            
+                var html_52af8de9acef4adeacd5059125c91ef3 = $('<div id="html_52af8de9acef4adeacd5059125c91ef3" style="width: 100.0%; height: 100.0%;">Фили-Давыдково - Cluster 0</div>')[0];
+                popup_40fcce19004a4ff388dfa777efdd8715.setContent(html_52af8de9acef4adeacd5059125c91ef3);
+            
+
+            circle_marker_3245a6d1d2394dba850156519b6d435a.bindPopup(popup_40fcce19004a4ff388dfa777efdd8715);
+
+            
+        
+    
+            var circle_marker_9551c8096dd64c54861f1a3ceb33d4f2 = L.circleMarker(
+                [55.72172,37.71724],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_a57fc0b80af44d64bf47970cf00b617c = L.popup({maxWidth: '300'});
+
+            
+                var html_60b1302837e54344811eb23eb66dc4b0 = $('<div id="html_60b1302837e54344811eb23eb66dc4b0" style="width: 100.0%; height: 100.0%;">Текстильщики - Cluster 0</div>')[0];
+                popup_a57fc0b80af44d64bf47970cf00b617c.setContent(html_60b1302837e54344811eb23eb66dc4b0);
+            
+
+            circle_marker_9551c8096dd64c54861f1a3ceb33d4f2.bindPopup(popup_a57fc0b80af44d64bf47970cf00b617c);
+
+            
+        
+    
+            var circle_marker_40d7662e9d244846a43a8a47b9c80465 = L.circleMarker(
+                [55.77552,37.57523],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_80d96933efb04f4c94cb8deda08a4c78 = L.popup({maxWidth: '300'});
+
+            
+                var html_50fd0dc735ec47e38ff855190372442a = $('<div id="html_50fd0dc735ec47e38ff855190372442a" style="width: 100.0%; height: 100.0%;">Тверской - Cluster 0</div>')[0];
+                popup_80d96933efb04f4c94cb8deda08a4c78.setContent(html_50fd0dc735ec47e38ff855190372442a);
+            
+
+            circle_marker_40d7662e9d244846a43a8a47b9c80465.bindPopup(popup_80d96933efb04f4c94cb8deda08a4c78);
+
+            
+        
+    
+            var circle_marker_0ffd11a0282e491583a1c954d9ec8074 = L.circleMarker(
+                [55.98044,37.17327],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_432ce96b390b48debdb3e331e3605a9b = L.popup({maxWidth: '300'});
+
+            
+                var html_4e629e169c01497eb709ed5764777d52 = $('<div id="html_4e629e169c01497eb709ed5764777d52" style="width: 100.0%; height: 100.0%;">Старое Крюково - Cluster 0</div>')[0];
+                popup_432ce96b390b48debdb3e331e3605a9b.setContent(html_4e629e169c01497eb709ed5764777d52);
+            
+
+            circle_marker_0ffd11a0282e491583a1c954d9ec8074.bindPopup(popup_432ce96b390b48debdb3e331e3605a9b);
+
+            
+        
+    
+            var circle_marker_48b9b53fce0642acb6ae1344b75ae712 = L.circleMarker(
+                [55.6532,37.36785],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_8e036b768078498a8638d80e2f57f748 = L.popup({maxWidth: '300'});
+
+            
+                var html_a9a6ae2c42834ec58360476b9241c565 = $('<div id="html_a9a6ae2c42834ec58360476b9241c565" style="width: 100.0%; height: 100.0%;">Солнцево - Cluster 0</div>')[0];
+                popup_8e036b768078498a8638d80e2f57f748.setContent(html_a9a6ae2c42834ec58360476b9241c565);
+            
+
+            circle_marker_48b9b53fce0642acb6ae1344b75ae712.bindPopup(popup_8e036b768078498a8638d80e2f57f748);
+
+            
+        
+    
+            var circle_marker_1fdd24fc7fab4e55908ec743d6aa2102 = L.circleMarker(
+                [55.79292,37.65031],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_7d4560b8ff904268a25c3c8147e5abdc = L.popup({maxWidth: '300'});
+
+            
+                var html_65ad5a3285ca40ecbdf72e284bb023e2 = $('<div id="html_65ad5a3285ca40ecbdf72e284bb023e2" style="width: 100.0%; height: 100.0%;">Сокольники - Cluster 0</div>')[0];
+                popup_7d4560b8ff904268a25c3c8147e5abdc.setContent(html_65ad5a3285ca40ecbdf72e284bb023e2);
+            
+
+            circle_marker_1fdd24fc7fab4e55908ec743d6aa2102.bindPopup(popup_7d4560b8ff904268a25c3c8147e5abdc);
+
+            
+        
+    
+            var circle_marker_7b666da2866f4f2c8540e4e9b9dc25e5 = L.circleMarker(
+                [55.78271,37.69932],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_209b0d8655b34d73b88fc0abb6519c4b = L.popup({maxWidth: '300'});
+
+            
+                var html_141f8f4920d64e28b35b0e8fb62e8aaf = $('<div id="html_141f8f4920d64e28b35b0e8fb62e8aaf" style="width: 100.0%; height: 100.0%;">Соколиная Гора - Cluster 0</div>')[0];
+                popup_209b0d8655b34d73b88fc0abb6519c4b.setContent(html_141f8f4920d64e28b35b0e8fb62e8aaf);
+            
+
+            circle_marker_7b666da2866f4f2c8540e4e9b9dc25e5.bindPopup(popup_209b0d8655b34d73b88fc0abb6519c4b);
+
+            
+        
+    
+            var circle_marker_be50852bd5984a609aa01c07f629eb19 = L.circleMarker(
+                [55.81535,37.48684],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_d9345666213c4552bc869bccbac5c2ae = L.popup({maxWidth: '300'});
+
+            
+                var html_3db1765fd41340889e9b1202e4c7f0e7 = $('<div id="html_3db1765fd41340889e9b1202e4c7f0e7" style="width: 100.0%; height: 100.0%;">Сокол - Cluster 0</div>')[0];
+                popup_d9345666213c4552bc869bccbac5c2ae.setContent(html_3db1765fd41340889e9b1202e4c7f0e7);
+            
+
+            circle_marker_be50852bd5984a609aa01c07f629eb19.bindPopup(popup_d9345666213c4552bc869bccbac5c2ae);
+
+            
+        
+    
+            var circle_marker_c39852bfe77c419b81ff3c6d762907e5 = L.circleMarker(
+                [55.94176,37.51948],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_606fcb23ae87426b8ee9e6351a477d85 = L.popup({maxWidth: '300'});
+
+            
+                var html_7f8243d075454ec68582dd88b68deb92 = $('<div id="html_7f8243d075454ec68582dd88b68deb92" style="width: 100.0%; height: 100.0%;">Северный - Cluster 0</div>')[0];
+                popup_606fcb23ae87426b8ee9e6351a477d85.setContent(html_7f8243d075454ec68582dd88b68deb92);
+            
+
+            circle_marker_c39852bfe77c419b81ff3c6d762907e5.bindPopup(popup_606fcb23ae87426b8ee9e6351a477d85);
+
+            
+        
+    
+            var circle_marker_9134962705724b93adf58b6899d0d01e = L.circleMarker(
+                [55.57729,37.53685],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_6f5d8ec1470743aa9d9157f9cd87d784 = L.popup({maxWidth: '300'});
+
+            
+                var html_cc7802913d15400fb4bb25a794bbfd49 = $('<div id="html_cc7802913d15400fb4bb25a794bbfd49" style="width: 100.0%; height: 100.0%;">Северное Бутово - Cluster 0</div>')[0];
+                popup_6f5d8ec1470743aa9d9157f9cd87d784.setContent(html_cc7802913d15400fb4bb25a794bbfd49);
+            
+
+            circle_marker_9134962705724b93adf58b6899d0d01e.bindPopup(popup_6f5d8ec1470743aa9d9157f9cd87d784);
+
+            
+        
+    
+            var circle_marker_43757258a7cb4696b608afe4ac27a037 = L.circleMarker(
+                [55.70806,37.74522],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_25491035ea974ea897dc3f19895270f7 = L.popup({maxWidth: '300'});
+
+            
+                var html_8697bf73fd744fe3af142d05d53024b0 = $('<div id="html_8697bf73fd744fe3af142d05d53024b0" style="width: 100.0%; height: 100.0%;">Кузьминки - Cluster 0</div>')[0];
+                popup_25491035ea974ea897dc3f19895270f7.setContent(html_8697bf73fd744fe3af142d05d53024b0);
+            
+
+            circle_marker_43757258a7cb4696b608afe4ac27a037.bindPopup(popup_25491035ea974ea897dc3f19895270f7);
+
+            
+        
+    
+            var circle_marker_48c7498ff40e492b9252f88c8f37029e = L.circleMarker(
+                [55.67269,37.57809],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_e8b168e3d0494711a3c46f3535d45549 = L.popup({maxWidth: '300'});
+
+            
+                var html_b4c35f29d3e2439c9105bd2315fe7527 = $('<div id="html_b4c35f29d3e2439c9105bd2315fe7527" style="width: 100.0%; height: 100.0%;">Котловка - Cluster 0</div>')[0];
+                popup_e8b168e3d0494711a3c46f3535d45549.setContent(html_b4c35f29d3e2439c9105bd2315fe7527);
+            
+
+            circle_marker_48c7498ff40e492b9252f88c8f37029e.bindPopup(popup_e8b168e3d0494711a3c46f3535d45549);
+
+            
+        
+    
+            var circle_marker_3a05a2e572b24ccfa8a78fd555a0b26d = L.circleMarker(
+                [55.65183,37.6222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_4aed0cbde2034e669373f749e384e785 = L.popup({maxWidth: '300'});
+
+            
+                var html_b44074da6b6d40e5ab8698802c791389 = $('<div id="html_b44074da6b6d40e5ab8698802c791389" style="width: 100.0%; height: 100.0%;">Москворечье-Сабурово - Cluster 0</div>')[0];
+                popup_4aed0cbde2034e669373f749e384e785.setContent(html_b44074da6b6d40e5ab8698802c791389);
+            
+
+            circle_marker_3a05a2e572b24ccfa8a78fd555a0b26d.bindPopup(popup_4aed0cbde2034e669373f749e384e785);
+
+            
+        
+    
+            var circle_marker_0afa9671985a4c1c98ac2c1496384d9b = L.circleMarker(
+                [55.72688,37.61513],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_181730164cde46bf806175210c84aeff = L.popup({maxWidth: '300'});
+
+            
+                var html_12e5e0d9ffa649b3b6aa906716ee9528 = $('<div id="html_12e5e0d9ffa649b3b6aa906716ee9528" style="width: 100.0%; height: 100.0%;">Замоскворечье - Cluster 0</div>')[0];
+                popup_181730164cde46bf806175210c84aeff.setContent(html_12e5e0d9ffa649b3b6aa906716ee9528);
+            
+
+            circle_marker_0afa9671985a4c1c98ac2c1496384d9b.bindPopup(popup_181730164cde46bf806175210c84aeff);
+
+            
+        
+    
+            var circle_marker_9f5ab30735624793aca62762e79a2268 = L.circleMarker(
+                [55.84712,37.46446],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_e77e96502243414aac2de89d98cfee2c = L.popup({maxWidth: '300'});
+
+            
+                var html_1e891e822ed24586b5a5e3e695a9f710 = $('<div id="html_1e891e822ed24586b5a5e3e695a9f710" style="width: 100.0%; height: 100.0%;">Головинский - Cluster 0</div>')[0];
+                popup_e77e96502243414aac2de89d98cfee2c.setContent(html_1e891e822ed24586b5a5e3e695a9f710);
+            
+
+            circle_marker_9f5ab30735624793aca62762e79a2268.bindPopup(popup_e77e96502243414aac2de89d98cfee2c);
+
+            
+        
+    
+            var circle_marker_a94d40a190f248cd8f10d40903526694 = L.circleMarker(
+                [55.69031,37.78726],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_8e4d4027e4274adc8f8ce336679533a8 = L.popup({maxWidth: '300'});
+
+            
+                var html_ebd3e4f4fec542ea90a1f5f6f316c95e = $('<div id="html_ebd3e4f4fec542ea90a1f5f6f316c95e" style="width: 100.0%; height: 100.0%;">Выхино-Жулебино - Cluster 0</div>')[0];
+                popup_8e4d4027e4274adc8f8ce336679533a8.setContent(html_ebd3e4f4fec542ea90a1f5f6f316c95e);
+            
+
+            circle_marker_a94d40a190f248cd8f10d40903526694.bindPopup(popup_8e4d4027e4274adc8f8ce336679533a8);
+
+            
+        
+    
+            var circle_marker_c3e97936408041dda462457cf6a391eb = L.circleMarker(
+                [55.47747,37.31767],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_5a1dc79dc7234e3c92b57bbba4f68ed8 = L.popup({maxWidth: '300'});
+
+            
+                var html_ec09b0edbb6d48559082fe6f49e8a015 = $('<div id="html_ec09b0edbb6d48559082fe6f49e8a015" style="width: 100.0%; height: 100.0%;">Десёновское - Cluster 0</div>')[0];
+                popup_5a1dc79dc7234e3c92b57bbba4f68ed8.setContent(html_ec09b0edbb6d48559082fe6f49e8a015);
+            
+
+            circle_marker_c3e97936408041dda462457cf6a391eb.bindPopup(popup_5a1dc79dc7234e3c92b57bbba4f68ed8);
+
+            
+        
+    
+            var circle_marker_8cd8f27657ec4de098ebbb13b9906ed7 = L.circleMarker(
+                [55.80608,37.51101],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_fd3c1a7389da49ed8b20da31ef8e92ad = L.popup({maxWidth: '300'});
+
+            
+                var html_dbf49ada3ba4430bab0ae5f482080587 = $('<div id="html_dbf49ada3ba4430bab0ae5f482080587" style="width: 100.0%; height: 100.0%;">Аэропорт - Cluster 0</div>')[0];
+                popup_fd3c1a7389da49ed8b20da31ef8e92ad.setContent(html_dbf49ada3ba4430bab0ae5f482080587);
+            
+
+            circle_marker_8cd8f27657ec4de098ebbb13b9906ed7.bindPopup(popup_fd3c1a7389da49ed8b20da31ef8e92ad);
+
+            
+        
+    
+            var circle_marker_0938ae93125f490295ba1e848ab61ebd = L.circleMarker(
+                [55.79324,37.79947],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_f8c30db57e404067b52f615498081c66 = L.popup({maxWidth: '300'});
+
+            
+                var html_acb6448c1e3c478b9aaa665220f6a09f = $('<div id="html_acb6448c1e3c478b9aaa665220f6a09f" style="width: 100.0%; height: 100.0%;">Восточное Измайлово - Cluster 0</div>')[0];
+                popup_f8c30db57e404067b52f615498081c66.setContent(html_acb6448c1e3c478b9aaa665220f6a09f);
+            
+
+            circle_marker_0938ae93125f490295ba1e848ab61ebd.bindPopup(popup_f8c30db57e404067b52f615498081c66);
+
+            
+        
+    
+            var circle_marker_4e9295ff35384eb4a5bd5553a8fa9dae = L.circleMarker(
+                [55.711,37.58213],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_7e64dcfb6b00478fb85d989c30fd2c11 = L.popup({maxWidth: '300'});
+
+            
+                var html_be1116b1ac0b4a60b761b87c029b7dfd = $('<div id="html_be1116b1ac0b4a60b761b87c029b7dfd" style="width: 100.0%; height: 100.0%;">Донской - Cluster 0</div>')[0];
+                popup_7e64dcfb6b00478fb85d989c30fd2c11.setContent(html_be1116b1ac0b4a60b761b87c029b7dfd);
+            
+
+            circle_marker_4e9295ff35384eb4a5bd5553a8fa9dae.bindPopup(popup_7e64dcfb6b00478fb85d989c30fd2c11);
+
+            
+        
+    
+            var circle_marker_ba8e15b23964406893a3a26f2bf3c797 = L.circleMarker(
+                [55.73301,37.48929],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_878dbff9bb1d4ab88aea707e12a2b23d = L.popup({maxWidth: '300'});
+
+            
+                var html_04eec3f6bf424ec19f3a45ac115a7dfd = $('<div id="html_04eec3f6bf424ec19f3a45ac115a7dfd" style="width: 100.0%; height: 100.0%;">Дорогомилово - Cluster 0</div>')[0];
+                popup_878dbff9bb1d4ab88aea707e12a2b23d.setContent(html_04eec3f6bf424ec19f3a45ac115a7dfd);
+            
+
+            circle_marker_ba8e15b23964406893a3a26f2bf3c797.bindPopup(popup_878dbff9bb1d4ab88aea707e12a2b23d);
+
+            
+        
+    
+            var circle_marker_7f19d78029bb4f7fa0988e2279f64371 = L.circleMarker(
+                [55.80903,37.74601],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_f46273d9105a461997c07742f40b3a1f = L.popup({maxWidth: '300'});
+
+            
+                var html_6f8913a415cb49a7b312ded89dcba70b = $('<div id="html_6f8913a415cb49a7b312ded89dcba70b" style="width: 100.0%; height: 100.0%;">Гольяново - Cluster 0</div>')[0];
+                popup_f46273d9105a461997c07742f40b3a1f.setContent(html_6f8913a415cb49a7b312ded89dcba70b);
+            
+
+            circle_marker_7f19d78029bb4f7fa0988e2279f64371.bindPopup(popup_f46273d9105a461997c07742f40b3a1f);
+
+            
+        
+    
+            var circle_marker_fc59d90d26424c44b940d364d3b5728a = L.circleMarker(
+                [55.86531,37.64172],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_82170d526df84ce3be4456cf9ca8378e = L.popup({maxWidth: '300'});
+
+            
+                var html_5bd5b201764b46b8be7e2b29a37a87ce = $('<div id="html_5bd5b201764b46b8be7e2b29a37a87ce" style="width: 100.0%; height: 100.0%;">Бабушкинский - Cluster 0</div>')[0];
+                popup_82170d526df84ce3be4456cf9ca8378e.setContent(html_5bd5b201764b46b8be7e2b29a37a87ce);
+            
+
+            circle_marker_fc59d90d26424c44b940d364d3b5728a.bindPopup(popup_82170d526df84ce3be4456cf9ca8378e);
+
+            
+        
+    
+            var circle_marker_7de66e4950764447bbd1b546a1dbc8d2 = L.circleMarker(
+                [55.8853,37.4737],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_f2b91f95767f4767a4123332f48e3303 = L.popup({maxWidth: '300'});
+
+            
+                var html_1b186669684b42859bb39353820854ed = $('<div id="html_1b186669684b42859bb39353820854ed" style="width: 100.0%; height: 100.0%;">Западное Дегунино - Cluster 0</div>')[0];
+                popup_f2b91f95767f4767a4123332f48e3303.setContent(html_1b186669684b42859bb39353820854ed);
+            
+
+            circle_marker_7de66e4950764447bbd1b546a1dbc8d2.bindPopup(popup_f2b91f95767f4767a4123332f48e3303);
+
+            
+        
+    
+            var circle_marker_056fb89e7431435eac043774a96a9d81 = L.circleMarker(
+                [55.64946,37.564],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_8af54920559640b78874da20e0c4fffa = L.popup({maxWidth: '300'});
+
+            
+                var html_e274a63f0c1f4e13a559eb3aaddd5d1a = $('<div id="html_e274a63f0c1f4e13a559eb3aaddd5d1a" style="width: 100.0%; height: 100.0%;">Зюзино - Cluster 0</div>')[0];
+                popup_8af54920559640b78874da20e0c4fffa.setContent(html_e274a63f0c1f4e13a559eb3aaddd5d1a);
+            
+
+            circle_marker_056fb89e7431435eac043774a96a9d81.bindPopup(popup_8af54920559640b78874da20e0c4fffa);
+
+            
+        
+    
+            var circle_marker_c0051d7f45b345acb2d8f9d02ac66b85 = L.circleMarker(
+                [55.62679,37.72736],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_698d1b2ce42745578705d755e333935a = L.popup({maxWidth: '300'});
+
+            
+                var html_a8df963e38e34eceab583a74c211b347 = $('<div id="html_a8df963e38e34eceab583a74c211b347" style="width: 100.0%; height: 100.0%;">Зябликово - Cluster 0</div>')[0];
+                popup_698d1b2ce42745578705d755e333935a.setContent(html_a8df963e38e34eceab583a74c211b347);
+            
+
+            circle_marker_c0051d7f45b345acb2d8f9d02ac66b85.bindPopup(popup_698d1b2ce42745578705d755e333935a);
+
+            
+        
+    
+            var circle_marker_2e43c6de4283436aac32a9698620ce62 = L.circleMarker(
+                [55.76232,37.79981],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_d1946feb48ac497989881481a1d98f4c = L.popup({maxWidth: '300'});
+
+            
+                var html_de4b4227bc7b403586ad9456f7430afd = $('<div id="html_de4b4227bc7b403586ad9456f7430afd" style="width: 100.0%; height: 100.0%;">Ивановское - Cluster 0</div>')[0];
+                popup_d1946feb48ac497989881481a1d98f4c.setContent(html_de4b4227bc7b403586ad9456f7430afd);
+            
+
+            circle_marker_2e43c6de4283436aac32a9698620ce62.bindPopup(popup_d1946feb48ac497989881481a1d98f4c);
+
+            
+        
+    
+            var circle_marker_f72f984c54e445aa83d91ec394142911 = L.circleMarker(
+                [55.71094,37.60622],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_6aeefa7ebb844eabb9621b401e1992ca = L.popup({maxWidth: '300'});
+
+            
+                var html_bb543113788f4eb5b5a438f78483f506 = $('<div id="html_bb543113788f4eb5b5a438f78483f506" style="width: 100.0%; height: 100.0%;">Даниловский - Cluster 0</div>')[0];
+                popup_6aeefa7ebb844eabb9621b401e1992ca.setContent(html_bb543113788f4eb5b5a438f78483f506);
+            
+
+            circle_marker_f72f984c54e445aa83d91ec394142911.bindPopup(popup_6aeefa7ebb844eabb9621b401e1992ca);
+
+            
+        
+    
+            var circle_marker_7d7e2642c3874595ac3c109052b2ddff = L.circleMarker(
+                [55.68403,37.55226],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_d4a789d565e945d8b208131d7c743b9b = L.popup({maxWidth: '300'});
+
+            
+                var html_0ce34a4ef3ff4987aaa10358aaaf5778 = $('<div id="html_0ce34a4ef3ff4987aaa10358aaaf5778" style="width: 100.0%; height: 100.0%;">Академический - Cluster 0</div>')[0];
+                popup_d4a789d565e945d8b208131d7c743b9b.setContent(html_0ce34a4ef3ff4987aaa10358aaaf5778);
+            
+
+            circle_marker_7d7e2642c3874595ac3c109052b2ddff.bindPopup(popup_d4a789d565e945d8b208131d7c743b9b);
+
+            
+        
+    
+            var circle_marker_f950b543e4534658b40ecd80919b101e = L.circleMarker(
+                [55.88721,37.58668],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_bde338c7fad4410096f7c6b0460102ae = L.popup({maxWidth: '300'});
+
+            
+                var html_49c7b6ff6c9548b89c691af5e248478a = $('<div id="html_49c7b6ff6c9548b89c691af5e248478a" style="width: 100.0%; height: 100.0%;">Бибирево - Cluster 0</div>')[0];
+                popup_bde338c7fad4410096f7c6b0460102ae.setContent(html_49c7b6ff6c9548b89c691af5e248478a);
+            
+
+            circle_marker_f950b543e4534658b40ecd80919b101e.bindPopup(popup_bde338c7fad4410096f7c6b0460102ae);
+
+            
+        
+    
+            var circle_marker_12f01a301e174a698459d66485144a00 = L.circleMarker(
+                [55.87283,37.52966],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_9e7245e986054ef2b72be9c2e33e41d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_98cc566bcfcf407c9254d0fbb940342d = $('<div id="html_98cc566bcfcf407c9254d0fbb940342d" style="width: 100.0%; height: 100.0%;">Бескудниковский - Cluster 0</div>')[0];
+                popup_9e7245e986054ef2b72be9c2e33e41d9.setContent(html_98cc566bcfcf407c9254d0fbb940342d);
+            
+
+            circle_marker_12f01a301e174a698459d66485144a00.bindPopup(popup_9e7245e986054ef2b72be9c2e33e41d9);
+
+            
+        
+    
+            var circle_marker_ceb6381fc0724f6c814255b1bf3cc5c8 = L.circleMarker(
+                [55.83132,37.57357],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_2b7c2b1919c547739396a443fcdf735d = L.popup({maxWidth: '300'});
+
+            
+                var html_9569209fdd02460eb394972e608a1370 = $('<div id="html_9569209fdd02460eb394972e608a1370" style="width: 100.0%; height: 100.0%;">Бутырский - Cluster 0</div>')[0];
+                popup_2b7c2b1919c547739396a443fcdf735d.setContent(html_9569209fdd02460eb394972e608a1370);
+            
+
+            circle_marker_ceb6381fc0724f6c814255b1bf3cc5c8.bindPopup(popup_2b7c2b1919c547739396a443fcdf735d);
+
+            
+        
+    
+            var circle_marker_b3fe1045e9bb4c139d656dd50d5712d7 = L.circleMarker(
+                [55.78496,37.54084],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_9b5f0855ede64b0c94807c83f3788333 = L.popup({maxWidth: '300'});
+
+            
+                var html_ab0fd9c2156e430985268b779394b344 = $('<div id="html_ab0fd9c2156e430985268b779394b344" style="width: 100.0%; height: 100.0%;">Беговой - Cluster 0</div>')[0];
+                popup_9b5f0855ede64b0c94807c83f3788333.setContent(html_ab0fd9c2156e430985268b779394b344);
+            
+
+            circle_marker_b3fe1045e9bb4c139d656dd50d5712d7.bindPopup(popup_9b5f0855ede64b0c94807c83f3788333);
+
+            
+        
+    
+            var circle_marker_2c1eb5cbfb9d41d7937897c4d7f8bf4a = L.circleMarker(
+                [55.63526,37.72713],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_655ad927164141b4a72d44d88fe993e7 = L.popup({maxWidth: '300'});
+
+            
+                var html_02e953d3652243ceb069206dcf8c2265 = $('<div id="html_02e953d3652243ceb069206dcf8c2265" style="width: 100.0%; height: 100.0%;">Братеево - Cluster 0</div>')[0];
+                popup_655ad927164141b4a72d44d88fe993e7.setContent(html_02e953d3652243ceb069206dcf8c2265);
+            
+
+            circle_marker_2c1eb5cbfb9d41d7937897c4d7f8bf4a.bindPopup(popup_655ad927164141b4a72d44d88fe993e7);
+
+            
+        
+    
+            var circle_marker_4b8dca72cc194c1688f59a58e0fc6ab1 = L.circleMarker(
+                [55.85179,37.39374],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_f6c82ce83b9442f8a4830f8d2c855947 = L.popup({maxWidth: '300'});
+
+            
+                var html_c3744ebf038e42188a81ff2ec30d9ecd = $('<div id="html_c3744ebf038e42188a81ff2ec30d9ecd" style="width: 100.0%; height: 100.0%;">Северное Тушино - Cluster 1</div>')[0];
+                popup_f6c82ce83b9442f8a4830f8d2c855947.setContent(html_c3744ebf038e42188a81ff2ec30d9ecd);
+            
+
+            circle_marker_4b8dca72cc194c1688f59a58e0fc6ab1.bindPopup(popup_f6c82ce83b9442f8a4830f8d2c855947);
+
+            
+        
+    
+            var circle_marker_b29aa9cdf84a47e6b545a5bab2047c0c = L.circleMarker(
+                [55.46492,37.09228],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_fdfad24585dc48db90ee89b5d4e93ae0 = L.popup({maxWidth: '300'});
+
+            
+                var html_7157b7312e1f4068a6234f6238abff8e = $('<div id="html_7157b7312e1f4068a6234f6238abff8e" style="width: 100.0%; height: 100.0%;">Первомайское - Cluster 1</div>')[0];
+                popup_fdfad24585dc48db90ee89b5d4e93ae0.setContent(html_7157b7312e1f4068a6234f6238abff8e);
+            
+
+            circle_marker_b29aa9cdf84a47e6b545a5bab2047c0c.bindPopup(popup_fdfad24585dc48db90ee89b5d4e93ae0);
+
+            
+        
+    
+            var circle_marker_7e70dc718619440a90e599f1ffd510eb = L.circleMarker(
+                [55.57463,37.61313],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_720759c40bb941beb23b79102378206f = L.popup({maxWidth: '300'});
+
+            
+                var html_ae4fd3c097df4267b09f281c5ecf5db5 = $('<div id="html_ae4fd3c097df4267b09f281c5ecf5db5" style="width: 100.0%; height: 100.0%;">Бирюлёво Западное - Cluster 1</div>')[0];
+                popup_720759c40bb941beb23b79102378206f.setContent(html_ae4fd3c097df4267b09f281c5ecf5db5);
+            
+
+            circle_marker_7e70dc718619440a90e599f1ffd510eb.bindPopup(popup_720759c40bb941beb23b79102378206f);
+
+            
+        
+    
+            var circle_marker_de841822250844bcb9ed240305f6d9c9 = L.circleMarker(
+                [55.65578,37.67152],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_f418d75492d745a1a1fc55b8ca52624c = L.popup({maxWidth: '300'});
+
+            
+                var html_93a8b25e92004347a86c6ca0ea55e376 = $('<div id="html_93a8b25e92004347a86c6ca0ea55e376" style="width: 100.0%; height: 100.0%;">Печатники - Cluster 1</div>')[0];
+                popup_f418d75492d745a1a1fc55b8ca52624c.setContent(html_93a8b25e92004347a86c6ca0ea55e376);
+            
+
+            circle_marker_de841822250844bcb9ed240305f6d9c9.bindPopup(popup_f418d75492d745a1a1fc55b8ca52624c);
+
+            
+        
+    
+            var circle_marker_65c080aff2604a21950e834d3a9b7f1e = L.circleMarker(
+                [55.68993,37.53005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_a5a9d2f8b15b4691b3c6cf7fdc4658e7 = L.popup({maxWidth: '300'});
+
+            
+                var html_4b4594bd20ef45a79e82f07333112f80 = $('<div id="html_4b4594bd20ef45a79e82f07333112f80" style="width: 100.0%; height: 100.0%;">Гагаринский - Cluster 1</div>')[0];
+                popup_a5a9d2f8b15b4691b3c6cf7fdc4658e7.setContent(html_4b4594bd20ef45a79e82f07333112f80);
+            
+
+            circle_marker_65c080aff2604a21950e834d3a9b7f1e.bindPopup(popup_a5a9d2f8b15b4691b3c6cf7fdc4658e7);
+
+            
+        
+    
+            var circle_marker_0188a01efdc54a13b5a1367f9519cf42 = L.circleMarker(
+                [55.74885,37.63211],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_6ffbc811260049dbb2438710293b1b01 = L.popup({maxWidth: '300'});
+
+            
+                var html_51a5314f46104f3582b9d9598934770f = $('<div id="html_51a5314f46104f3582b9d9598934770f" style="width: 100.0%; height: 100.0%;">Таганский - Cluster 1</div>')[0];
+                popup_6ffbc811260049dbb2438710293b1b01.setContent(html_51a5314f46104f3582b9d9598934770f);
+            
+
+            circle_marker_0188a01efdc54a13b5a1367f9519cf42.bindPopup(popup_6ffbc811260049dbb2438710293b1b01);
+
+            
+        
+    
+            var circle_marker_d25e13c8db0e456384f275665277bac3 = L.circleMarker(
+                [55.56716,37.36827],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_a0304fe5baee466a8b3577ea448d63c2 = L.popup({maxWidth: '300'});
+
+            
+                var html_3f351f05b62f49269f1231c3f1efdd7d = $('<div id="html_3f351f05b62f49269f1231c3f1efdd7d" style="width: 100.0%; height: 100.0%;">Сосенское - Cluster 1</div>')[0];
+                popup_a0304fe5baee466a8b3577ea448d63c2.setContent(html_3f351f05b62f49269f1231c3f1efdd7d);
+            
+
+            circle_marker_d25e13c8db0e456384f275665277bac3.bindPopup(popup_a0304fe5baee466a8b3577ea448d63c2);
+
+            
+        
+    
+            var circle_marker_f254e758a85b4a0b9af761e15f315e9e = L.circleMarker(
+                [55.64219,37.49851],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_794f22aa574245c2b6dff40fd5783902 = L.popup({maxWidth: '300'});
+
+            
+                var html_97113e9e827b45548e46ac41fdaf761a = $('<div id="html_97113e9e827b45548e46ac41fdaf761a" style="width: 100.0%; height: 100.0%;">Коньково - Cluster 1</div>')[0];
+                popup_794f22aa574245c2b6dff40fd5783902.setContent(html_97113e9e827b45548e46ac41fdaf761a);
+            
+
+            circle_marker_f254e758a85b4a0b9af761e15f315e9e.bindPopup(popup_794f22aa574245c2b6dff40fd5783902);
+
+            
+        
+    
+            var circle_marker_5e97effb87784154ab061f2e2e5cd172 = L.circleMarker(
+                [55.69453,37.46632],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_dc33c4c9d516479a8d9abfc6f9fa389b = L.popup({maxWidth: '300'});
+
+            
+                var html_5abc1f4685594c39a51d5caba700d7a7 = $('<div id="html_5abc1f4685594c39a51d5caba700d7a7" style="width: 100.0%; height: 100.0%;">Раменки - Cluster 1</div>')[0];
+                popup_dc33c4c9d516479a8d9abfc6f9fa389b.setContent(html_5abc1f4685594c39a51d5caba700d7a7);
+            
+
+            circle_marker_5e97effb87784154ab061f2e2e5cd172.bindPopup(popup_dc33c4c9d516479a8d9abfc6f9fa389b);
+
+            
+        
+    
+            var circle_marker_82ac7e62b77445f5af870b24ec746477 = L.circleMarker(
+                [55.48058,37.43887],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_cf956d20fd1c41319949ebc4152d9c28 = L.popup({maxWidth: '300'});
+
+            
+                var html_6c5da8d0683c4608b169f9d66f39a7a2 = $('<div id="html_6c5da8d0683c4608b169f9d66f39a7a2" style="width: 100.0%; height: 100.0%;">Рязановское - Cluster 1</div>')[0];
+                popup_cf956d20fd1c41319949ebc4152d9c28.setContent(html_6c5da8d0683c4608b169f9d66f39a7a2);
+            
+
+            circle_marker_82ac7e62b77445f5af870b24ec746477.bindPopup(popup_cf956d20fd1c41319949ebc4152d9c28);
+
+            
+        
+    
+            var circle_marker_08953d01b2c3451abb67a2017c4a39e4 = L.circleMarker(
+                [55.72501,37.73598],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_18ada9a1201448649d991fb59c4275a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_f77a8c5dc8fc4c4ca0d06c0519cdc819 = $('<div id="html_f77a8c5dc8fc4c4ca0d06c0519cdc819" style="width: 100.0%; height: 100.0%;">Рязанский - Cluster 1</div>')[0];
+                popup_18ada9a1201448649d991fb59c4275a3.setContent(html_f77a8c5dc8fc4c4ca0d06c0519cdc819);
+            
+
+            circle_marker_08953d01b2c3451abb67a2017c4a39e4.bindPopup(popup_18ada9a1201448649d991fb59c4275a3);
+
+            
+        
+    
+            var circle_marker_3f1595a279254dfc892315356ad8a681 = L.circleMarker(
+                [55.88724,37.54304],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_b0a34a648564436db4de3395eaa81061 = L.popup({maxWidth: '300'});
+
+            
+                var html_4a406381179543baa76549f581a436e0 = $('<div id="html_4a406381179543baa76549f581a436e0" style="width: 100.0%; height: 100.0%;">Восточное Дегунино - Cluster 1</div>')[0];
+                popup_b0a34a648564436db4de3395eaa81061.setContent(html_4a406381179543baa76549f581a436e0);
+            
+
+            circle_marker_3f1595a279254dfc892315356ad8a681.bindPopup(popup_b0a34a648564436db4de3395eaa81061);
+
+            
+        
+    
+            var circle_marker_53ccd15b898942089af5b37cd6c28e41 = L.circleMarker(
+                [55.52931,37.39178],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_5dbf755b0e7d407182b4a26c469265cf = L.popup({maxWidth: '300'});
+
+            
+                var html_5eeee265d47e48c3a93b143442b2f863 = $('<div id="html_5eeee265d47e48c3a93b143442b2f863" style="width: 100.0%; height: 100.0%;">Воскресенское - Cluster 1</div>')[0];
+                popup_5dbf755b0e7d407182b4a26c469265cf.setContent(html_5eeee265d47e48c3a93b143442b2f863);
+            
+
+            circle_marker_53ccd15b898942089af5b37cd6c28e41.bindPopup(popup_5dbf755b0e7d407182b4a26c469265cf);
+
+            
+        
+    
+            var circle_marker_de0daa1bc0e84c84a2e7a983d0435ba1 = L.circleMarker(
+                [55.35485,36.97008],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_b61807ffeccd4d0cbe3d3cbf41cb0184 = L.popup({maxWidth: '300'});
+
+            
+                var html_1955c6913a944ad9aa91e77ebc7fed12 = $('<div id="html_1955c6913a944ad9aa91e77ebc7fed12" style="width: 100.0%; height: 100.0%;">Вороновское - Cluster 1</div>')[0];
+                popup_b61807ffeccd4d0cbe3d3cbf41cb0184.setContent(html_1955c6913a944ad9aa91e77ebc7fed12);
+            
+
+            circle_marker_de0daa1bc0e84c84a2e7a983d0435ba1.bindPopup(popup_b61807ffeccd4d0cbe3d3cbf41cb0184);
+
+            
+        
+    
+            var circle_marker_43e7b24f1e4142a197842b673c56891a = L.circleMarker(
+                [55.58532,37.23021],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_3b890ebc4946441f834f123136e1def9 = L.popup({maxWidth: '300'});
+
+            
+                var html_4a9d2c5b0d9e4fe0b2fdd1b7479a0827 = $('<div id="html_4a9d2c5b0d9e4fe0b2fdd1b7479a0827" style="width: 100.0%; height: 100.0%;">Внуково - Cluster 1</div>')[0];
+                popup_3b890ebc4946441f834f123136e1def9.setContent(html_4a9d2c5b0d9e4fe0b2fdd1b7479a0827);
+            
+
+            circle_marker_43e7b24f1e4142a197842b673c56891a.bindPopup(popup_3b890ebc4946441f834f123136e1def9);
+
+            
+        
+    
+            var circle_marker_84ce8b6d2bb24ca6b3f9efb9973fbf0b = L.circleMarker(
+                [56.01645,37.1316],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_32fc996b4a3c4e45bf9dcea9c967c6c9 = L.popup({maxWidth: '300'});
+
+            
+                var html_8988697da7ea4b50baebf594e933a564 = $('<div id="html_8988697da7ea4b50baebf594e933a564" style="width: 100.0%; height: 100.0%;">Силино - Cluster 1</div>')[0];
+                popup_32fc996b4a3c4e45bf9dcea9c967c6c9.setContent(html_8988697da7ea4b50baebf594e933a564);
+            
+
+            circle_marker_84ce8b6d2bb24ca6b3f9efb9973fbf0b.bindPopup(popup_32fc996b4a3c4e45bf9dcea9c967c6c9);
+
+            
+        
+    
+            var circle_marker_6732c9fb9ede494ea516e734e24f1efd = L.circleMarker(
+                [55.62087,37.21624],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_9cf03a8aa4f54ee59c34ae2ea1aa5afb = L.popup({maxWidth: '300'});
+
+            
+                var html_9f033737aa554571a545891d23e173f1 = $('<div id="html_9f033737aa554571a545891d23e173f1" style="width: 100.0%; height: 100.0%;">Внуковское - Cluster 1</div>')[0];
+                popup_9cf03a8aa4f54ee59c34ae2ea1aa5afb.setContent(html_9f033737aa554571a545891d23e173f1);
+            
+
+            circle_marker_6732c9fb9ede494ea516e734e24f1efd.bindPopup(popup_9cf03a8aa4f54ee59c34ae2ea1aa5afb);
+
+            
+        
+    
+            var circle_marker_33a467a30949433ba2dab5a29b7d817f = L.circleMarker(
+                [55.75954,37.6279],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_2db12de4e11048b08ef6501239b8d05b = L.popup({maxWidth: '300'});
+
+            
+                var html_ded87530ead246ac9078284ce3a9477a = $('<div id="html_ded87530ead246ac9078284ce3a9477a" style="width: 100.0%; height: 100.0%;">Басманный - Cluster 1</div>')[0];
+                popup_2db12de4e11048b08ef6501239b8d05b.setContent(html_ded87530ead246ac9078284ce3a9477a);
+            
+
+            circle_marker_33a467a30949433ba2dab5a29b7d817f.bindPopup(popup_2db12de4e11048b08ef6501239b8d05b);
+
+            
+        
+    
+            var circle_marker_5d5eef52fe6647afa6c1504f38d4708b = L.circleMarker(
+                [55.24139,36.93724],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_792e73564bca4a57bed504898d2cbcd7 = L.popup({maxWidth: '300'});
+
+            
+                var html_5bb4f59d8aa64440a472c4bb322a8ab5 = $('<div id="html_5bb4f59d8aa64440a472c4bb322a8ab5" style="width: 100.0%; height: 100.0%;">Роговское - Cluster 1</div>')[0];
+                popup_792e73564bca4a57bed504898d2cbcd7.setContent(html_5bb4f59d8aa64440a472c4bb322a8ab5);
+            
+
+            circle_marker_5d5eef52fe6647afa6c1504f38d4708b.bindPopup(popup_792e73564bca4a57bed504898d2cbcd7);
+
+            
+        
+    
+            var circle_marker_75b4cafcca584504a6432508930e74f5 = L.circleMarker(
+                [55.60827,37.48833],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_2b0a2c259eed495a9fd49842f6af1c61 = L.popup({maxWidth: '300'});
+
+            
+                var html_7806959299c74870a3ce21535b219bde = $('<div id="html_7806959299c74870a3ce21535b219bde" style="width: 100.0%; height: 100.0%;">Ясенево - Cluster 1</div>')[0];
+                popup_2b0a2c259eed495a9fd49842f6af1c61.setContent(html_7806959299c74870a3ce21535b219bde);
+            
+
+            circle_marker_75b4cafcca584504a6432508930e74f5.bindPopup(popup_2b0a2c259eed495a9fd49842f6af1c61);
+
+            
+        
+    
+            var circle_marker_9af0dcae78224b67ac5f699c84f3588e = L.circleMarker(
+                [55.47518,37.26002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_c42293f0dc8e47fdbb32e996313b70bd = L.popup({maxWidth: '300'});
+
+            
+                var html_af508280bf5e4f8e9900ddda9eada5d0 = $('<div id="html_af508280bf5e4f8e9900ddda9eada5d0" style="width: 100.0%; height: 100.0%;">Троицк - Cluster 1</div>')[0];
+                popup_c42293f0dc8e47fdbb32e996313b70bd.setContent(html_af508280bf5e4f8e9900ddda9eada5d0);
+            
+
+            circle_marker_9af0dcae78224b67ac5f699c84f3588e.bindPopup(popup_c42293f0dc8e47fdbb32e996313b70bd);
+
+            
+        
+    
+            var circle_marker_08362d00902e4ea7a30ae801d502fead = L.circleMarker(
+                [55.6045,37.6926],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_db205881475b4aa9b44ef52ddb466b52 = L.popup({maxWidth: '300'});
+
+            
+                var html_204e2d57f55c4ecea7ee15dba85e3b56 = $('<div id="html_204e2d57f55c4ecea7ee15dba85e3b56" style="width: 100.0%; height: 100.0%;">Орехово-Борисово Южное - Cluster 1</div>')[0];
+                popup_db205881475b4aa9b44ef52ddb466b52.setContent(html_204e2d57f55c4ecea7ee15dba85e3b56);
+            
+
+            circle_marker_08362d00902e4ea7a30ae801d502fead.bindPopup(popup_db205881475b4aa9b44ef52ddb466b52);
+
+            
+        
+    
+            var circle_marker_5489a5cf5a6649abbadb102f90c9cf11 = L.circleMarker(
+                [55.70978,37.83602],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_6f72de9d9b8647c69b4db566e5a24c2f = L.popup({maxWidth: '300'});
+
+            
+                var html_fabce13bcc334bdeb1f8fee4f8faf04a = $('<div id="html_fabce13bcc334bdeb1f8fee4f8faf04a" style="width: 100.0%; height: 100.0%;">Косино-Ухтомский - Cluster 1</div>')[0];
+                popup_6f72de9d9b8647c69b4db566e5a24c2f.setContent(html_fabce13bcc334bdeb1f8fee4f8faf04a);
+            
+
+            circle_marker_5489a5cf5a6649abbadb102f90c9cf11.bindPopup(popup_6f72de9d9b8647c69b4db566e5a24c2f);
+
+            
+        
+    
+            var circle_marker_54e89239ccc049f8a6a845e11bd5cf09 = L.circleMarker(
+                [55.59919,37.13243],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_c96912dce2b2430d9dced16b5419dcc7 = L.popup({maxWidth: '300'});
+
+            
+                var html_bd28365bb7f84be383e0712f79bfa96a = $('<div id="html_bd28365bb7f84be383e0712f79bfa96a" style="width: 100.0%; height: 100.0%;">Кокошкино - Cluster 1</div>')[0];
+                popup_c96912dce2b2430d9dced16b5419dcc7.setContent(html_bd28365bb7f84be383e0712f79bfa96a);
+            
+
+            circle_marker_54e89239ccc049f8a6a845e11bd5cf09.bindPopup(popup_c96912dce2b2430d9dced16b5419dcc7);
+
+            
+        
+    
+            var circle_marker_1bf9e6005e184209a9404f2a6bbc87fe = L.circleMarker(
+                [55.43896,37.15009],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_a7ef657e342d461587064a983b96778c = L.popup({maxWidth: '300'});
+
+            
+                var html_c11f3855d81d41d69004a76ef88fcaf7 = $('<div id="html_c11f3855d81d41d69004a76ef88fcaf7" style="width: 100.0%; height: 100.0%;">Краснопахорское - Cluster 1</div>')[0];
+                popup_a7ef657e342d461587064a983b96778c.setContent(html_c11f3855d81d41d69004a76ef88fcaf7);
+            
+
+            circle_marker_1bf9e6005e184209a9404f2a6bbc87fe.bindPopup(popup_a7ef657e342d461587064a983b96778c);
+
+            
+        
+    
+            var circle_marker_c54bd75422fd490bbdb18ea5194f9abf = L.circleMarker(
+                [55.75983,37.62834],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_5b74ccdeed0c4604aec1e27f904bd174 = L.popup({maxWidth: '300'});
+
+            
+                var html_f6a8276446fb4f43a85bfec6bbff4a0f = $('<div id="html_f6a8276446fb4f43a85bfec6bbff4a0f" style="width: 100.0%; height: 100.0%;">Красносельский - Cluster 1</div>')[0];
+                popup_5b74ccdeed0c4604aec1e27f904bd174.setContent(html_f6a8276446fb4f43a85bfec6bbff4a0f);
+            
+
+            circle_marker_c54bd75422fd490bbdb18ea5194f9abf.bindPopup(popup_5b74ccdeed0c4604aec1e27f904bd174);
+
+            
+        
+    
+            var circle_marker_f193daa393724a018b9ec08dd5f6f074 = L.circleMarker(
+                [55.77181,37.36539],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_911d8ec1b4fe4bf596c67986e32f5547 = L.popup({maxWidth: '300'});
+
+            
+                var html_21e0ada5fa254c31bb3a4ad0e648047b = $('<div id="html_21e0ada5fa254c31bb3a4ad0e648047b" style="width: 100.0%; height: 100.0%;">Крылатское - Cluster 1</div>')[0];
+                popup_911d8ec1b4fe4bf596c67986e32f5547.setContent(html_21e0ada5fa254c31bb3a4ad0e648047b);
+            
+
+            circle_marker_f193daa393724a018b9ec08dd5f6f074.bindPopup(popup_911d8ec1b4fe4bf596c67986e32f5547);
+
+            
+        
+    
+            var circle_marker_3936d6bf04fa45a88f5d89fb797a2ab4 = L.circleMarker(
+                [55.98988,37.14409],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_426ad04c50c845278f69111dd741694a = L.popup({maxWidth: '300'});
+
+            
+                var html_ebb1bd4c1dbf4435aaee039ac5fd5cf7 = $('<div id="html_ebb1bd4c1dbf4435aaee039ac5fd5cf7" style="width: 100.0%; height: 100.0%;">Крюково - Cluster 1</div>')[0];
+                popup_426ad04c50c845278f69111dd741694a.setContent(html_ebb1bd4c1dbf4435aaee039ac5fd5cf7);
+            
+
+            circle_marker_3936d6bf04fa45a88f5d89fb797a2ab4.bindPopup(popup_426ad04c50c845278f69111dd741694a);
+
+            
+        
+    
+            var circle_marker_e91002f6e8dd44de87c323198989905e = L.circleMarker(
+                [55.29922,37.23363],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_e598bd4fef394077afab0735cff2c5f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_5223957682084c049c6ce75c2e9bbd90 = $('<div id="html_5223957682084c049c6ce75c2e9bbd90" style="width: 100.0%; height: 100.0%;">Клёновское - Cluster 1</div>')[0];
+                popup_e598bd4fef394077afab0735cff2c5f5.setContent(html_5223957682084c049c6ce75c2e9bbd90);
+            
+
+            circle_marker_e91002f6e8dd44de87c323198989905e.bindPopup(popup_e598bd4fef394077afab0735cff2c5f5);
+
+            
+        
+    
+            var circle_marker_6c82c128c73c441e8b8f5a52052c7d67 = L.circleMarker(
+                [55.80199,37.2905],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_77ded6aad9944ec89cd03c94d832643b = L.popup({maxWidth: '300'});
+
+            
+                var html_ac76754986a544b590750334d316083b = $('<div id="html_ac76754986a544b590750334d316083b" style="width: 100.0%; height: 100.0%;">Кунцево - Cluster 1</div>')[0];
+                popup_77ded6aad9944ec89cd03c94d832643b.setContent(html_ac76754986a544b590750334d316083b);
+            
+
+            circle_marker_6c82c128c73c441e8b8f5a52052c7d67.bindPopup(popup_77ded6aad9944ec89cd03c94d832643b);
+
+            
+        
+    
+            var circle_marker_bf355e5483d0496c83ba514aac757043 = L.circleMarker(
+                [55.44083,36.8031],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_6b32a9d4d5c7470fa4bce7639a68425e = L.popup({maxWidth: '300'});
+
+            
+                var html_6444c0aa00244f34894f792366d07fa6 = $('<div id="html_6444c0aa00244f34894f792366d07fa6" style="width: 100.0%; height: 100.0%;">Киевский - Cluster 1</div>')[0];
+                popup_6b32a9d4d5c7470fa4bce7639a68425e.setContent(html_6444c0aa00244f34894f792366d07fa6);
+            
+
+            circle_marker_bf355e5483d0496c83ba514aac757043.bindPopup(popup_6b32a9d4d5c7470fa4bce7639a68425e);
+
+            
+        
+    
+            var circle_marker_cbc9b89df9d743f0b423c3e9d4e77768 = L.circleMarker(
+                [55.79714,37.63499],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_55d2bf69f87f4e15998d07ff520c17e7 = L.popup({maxWidth: '300'});
+
+            
+                var html_fe19eda32b3e44e7aa807a8318f7ec7c = $('<div id="html_fe19eda32b3e44e7aa807a8318f7ec7c" style="width: 100.0%; height: 100.0%;">Алексеевский - Cluster 1</div>')[0];
+                popup_55d2bf69f87f4e15998d07ff520c17e7.setContent(html_fe19eda32b3e44e7aa807a8318f7ec7c);
+            
+
+            circle_marker_cbc9b89df9d743f0b423c3e9d4e77768.bindPopup(popup_55d2bf69f87f4e15998d07ff520c17e7);
+
+            
+        
+    
+            var circle_marker_585dcf815fd149a5a442b46e76fd843f = L.circleMarker(
+                [55.84723,37.39182],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_d51ede1e2c1b4b2c9aa4ab66f9b6c67a = L.popup({maxWidth: '300'});
+
+            
+                var html_9a409a8e8f9a48169c547cd66528afc5 = $('<div id="html_9a409a8e8f9a48169c547cd66528afc5" style="width: 100.0%; height: 100.0%;">Южное Тушино - Cluster 1</div>')[0];
+                popup_d51ede1e2c1b4b2c9aa4ab66f9b6c67a.setContent(html_9a409a8e8f9a48169c547cd66528afc5);
+            
+
+            circle_marker_585dcf815fd149a5a442b46e76fd843f.bindPopup(popup_d51ede1e2c1b4b2c9aa4ab66f9b6c67a);
+
+            
+        
+    
+            var circle_marker_893ce1e9ab84467da7085adcca53b026 = L.circleMarker(
+                [55.59036,37.08697],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_607a6af47caf4f1db4e2726649bb0a7f = L.popup({maxWidth: '300'});
+
+            
+                var html_ee89a58f6ae042ab8134a6d68a93fd28 = $('<div id="html_ee89a58f6ae042ab8134a6d68a93fd28" style="width: 100.0%; height: 100.0%;">Марушкинское - Cluster 1</div>')[0];
+                popup_607a6af47caf4f1db4e2726649bb0a7f.setContent(html_ee89a58f6ae042ab8134a6d68a93fd28);
+            
+
+            circle_marker_893ce1e9ab84467da7085adcca53b026.bindPopup(popup_607a6af47caf4f1db4e2726649bb0a7f);
+
+            
+        
+    
+            var circle_marker_bdbe88b73fe342dcaed18e6ab5c9db4c = L.circleMarker(
+                [55.83384,37.58042],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_654fdd4047204ba8903b4d74f1b436d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_348dd40cc14849a5b62086766b9b8c7d = $('<div id="html_348dd40cc14849a5b62086766b9b8c7d" style="width: 100.0%; height: 100.0%;">Останкинский - Cluster 1</div>')[0];
+                popup_654fdd4047204ba8903b4d74f1b436d5.setContent(html_348dd40cc14849a5b62086766b9b8c7d);
+            
+
+            circle_marker_bdbe88b73fe342dcaed18e6ab5c9db4c.bindPopup(popup_654fdd4047204ba8903b4d74f1b436d5);
+
+            
+        
+    
+            var circle_marker_6ae8d55a346d488b91bf8a2b6ee4a0b4 = L.circleMarker(
+                [55.53349,37.47495],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_dbfce7fcd1cd454ab187c747911429c9 = L.popup({maxWidth: '300'});
+
+            
+                var html_ae5d0dc2b186405ab123f5183562a14f = $('<div id="html_ae5d0dc2b186405ab123f5183562a14f" style="width: 100.0%; height: 100.0%;">Южное Бутово - Cluster 1</div>')[0];
+                popup_dbfce7fcd1cd454ab187c747911429c9.setContent(html_ae5d0dc2b186405ab123f5183562a14f);
+            
+
+            circle_marker_6ae8d55a346d488b91bf8a2b6ee4a0b4.bindPopup(popup_dbfce7fcd1cd454ab187c747911429c9);
+
+            
+        
+    
+            var circle_marker_c2b981c375184694bde50ee8be6e6125 = L.circleMarker(
+                [55.64383,37.69291],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_a178d7dedfaf4e49a930e74c73c76c5b = L.popup({maxWidth: '300'});
+
+            
+                var html_c2ee5881f4cd41999fa220c6daf3cbdc = $('<div id="html_c2ee5881f4cd41999fa220c6daf3cbdc" style="width: 100.0%; height: 100.0%;">Марьино - Cluster 1</div>')[0];
+                popup_a178d7dedfaf4e49a930e74c73c76c5b.setContent(html_c2ee5881f4cd41999fa220c6daf3cbdc);
+            
+
+            circle_marker_c2b981c375184694bde50ee8be6e6125.bindPopup(popup_a178d7dedfaf4e49a930e74c73c76c5b);
+
+            
+        
+    
+            var circle_marker_faad0e0f20da47828a255e8fecf726d8 = L.circleMarker(
+                [55.58097,37.57294],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_98ca130d638d4cc0ad297648e0196653 = L.popup({maxWidth: '300'});
+
+            
+                var html_f111fe02e86041f3ba53759d4b1bca16 = $('<div id="html_f111fe02e86041f3ba53759d4b1bca16" style="width: 100.0%; height: 100.0%;">Чертаново Южное - Cluster 1</div>')[0];
+                popup_98ca130d638d4cc0ad297648e0196653.setContent(html_f111fe02e86041f3ba53759d4b1bca16);
+            
+
+            circle_marker_faad0e0f20da47828a255e8fecf726d8.bindPopup(popup_98ca130d638d4cc0ad297648e0196653);
+
+            
+        
+    
+            var circle_marker_984f1eedd14f463a8607fbd6707c2776 = L.circleMarker(
+                [55.39473,37.05274],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_059591fe715d4439b4cef83657ea43fc = L.popup({maxWidth: '300'});
+
+            
+                var html_807a9223b2574e85bac52b624bc06506 = $('<div id="html_807a9223b2574e85bac52b624bc06506" style="width: 100.0%; height: 100.0%;">Михайлово-Ярцевское - Cluster 1</div>')[0];
+                popup_059591fe715d4439b4cef83657ea43fc.setContent(html_807a9223b2574e85bac52b624bc06506);
+            
+
+            circle_marker_984f1eedd14f463a8607fbd6707c2776.bindPopup(popup_059591fe715d4439b4cef83657ea43fc);
+
+            
+        
+    
+            var circle_marker_32b373a9b42c41afb4625712a87403a7 = L.circleMarker(
+                [55.89248,37.49625],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_9d4c518bbaa64fbab9608b2120f5024e = L.popup({maxWidth: '300'});
+
+            
+                var html_ae80532f480548c3abbdd398fa6525d8 = $('<div id="html_ae80532f480548c3abbdd398fa6525d8" style="width: 100.0%; height: 100.0%;">Дмитровский - Cluster 1</div>')[0];
+                popup_9d4c518bbaa64fbab9608b2120f5024e.setContent(html_ae80532f480548c3abbdd398fa6525d8);
+            
+
+            circle_marker_32b373a9b42c41afb4625712a87403a7.bindPopup(popup_9d4c518bbaa64fbab9608b2120f5024e);
+
+            
+        
+    
+            var circle_marker_341fd68d91b24e4aa43e92f7d158763c = L.circleMarker(
+                [55.61895,37.30607],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_7efcb91d98ff4584b6a3330c78b3f594 = L.popup({maxWidth: '300'});
+
+            
+                var html_790166ab02e04afc8197f1444907899d = $('<div id="html_790166ab02e04afc8197f1444907899d" style="width: 100.0%; height: 100.0%;">Московский - Cluster 1</div>')[0];
+                popup_7efcb91d98ff4584b6a3330c78b3f594.setContent(html_790166ab02e04afc8197f1444907899d);
+            
+
+            circle_marker_341fd68d91b24e4aa43e92f7d158763c.bindPopup(popup_7efcb91d98ff4584b6a3330c78b3f594);
+
+            
+        
+    
+            var circle_marker_222907185a0a4cd99b52d672e5785238 = L.circleMarker(
+                [55.52121,37.50508],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_113b032ef2dc43e5b79e7709485fe640 = L.popup({maxWidth: '300'});
+
+            
+                var html_0268d7b47b614b1ba424932d7a93e70c = $('<div id="html_0268d7b47b614b1ba424932d7a93e70c" style="width: 100.0%; height: 100.0%;">Щербинка - Cluster 1</div>')[0];
+                popup_113b032ef2dc43e5b79e7709485fe640.setContent(html_0268d7b47b614b1ba424932d7a93e70c);
+            
+
+            circle_marker_222907185a0a4cd99b52d672e5785238.bindPopup(popup_113b032ef2dc43e5b79e7709485fe640);
+
+            
+        
+    
+            var circle_marker_b18be61fa2884c7e9675c503ab73c418 = L.circleMarker(
+                [55.65539,37.65342],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_193b7b207b6d4f7daaa16aeedfa21026 = L.popup({maxWidth: '300'});
+
+            
+                var html_7a2e75ccea2e4282b2e1acf7fe492c95 = $('<div id="html_7a2e75ccea2e4282b2e1acf7fe492c95" style="width: 100.0%; height: 100.0%;">Нагатинский Затон - Cluster 1</div>')[0];
+                popup_193b7b207b6d4f7daaa16aeedfa21026.setContent(html_7a2e75ccea2e4282b2e1acf7fe492c95);
+            
+
+            circle_marker_b18be61fa2884c7e9675c503ab73c418.bindPopup(popup_193b7b207b6d4f7daaa16aeedfa21026);
+
+            
+        
+    
+            var circle_marker_30aabe50b52f443088f8e40d96c98961 = L.circleMarker(
+                [55.36449,37.2837],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_f3c405a64ed1441fbd12a6458aa00901 = L.popup({maxWidth: '300'});
+
+            
+                var html_daa2afacecd141279153aadc8b9db8c5 = $('<div id="html_daa2afacecd141279153aadc8b9db8c5" style="width: 100.0%; height: 100.0%;">Щаповское - Cluster 1</div>')[0];
+                popup_f3c405a64ed1441fbd12a6458aa00901.setContent(html_daa2afacecd141279153aadc8b9db8c5);
+            
+
+            circle_marker_30aabe50b52f443088f8e40d96c98961.bindPopup(popup_f3c405a64ed1441fbd12a6458aa00901);
+
+            
+        
+    
+            var circle_marker_7fed24a2c4304842bffe64fed75d933a = L.circleMarker(
+                [55.75202,37.57206],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_643429cf5e2a4959a7a41ef313f0aedf = L.popup({maxWidth: '300'});
+
+            
+                var html_2bd5f49512e04587b00f511cb0fa9f8a = $('<div id="html_2bd5f49512e04587b00f511cb0fa9f8a" style="width: 100.0%; height: 100.0%;">Арбат - Cluster 1</div>')[0];
+                popup_643429cf5e2a4959a7a41ef313f0aedf.setContent(html_2bd5f49512e04587b00f511cb0fa9f8a);
+            
+
+            circle_marker_7fed24a2c4304842bffe64fed75d933a.bindPopup(popup_643429cf5e2a4959a7a41ef313f0aedf);
+
+            
+        
+    
+            var circle_marker_bb0a262033f7497da767934bad1bbe57 = L.circleMarker(
+                [55.78259,37.61225],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_ceeedf404a3f45449404adb2a9fa941e = L.popup({maxWidth: '300'});
+
+            
+                var html_b4635f173c5247b68711d0f65ee26e6f = $('<div id="html_b4635f173c5247b68711d0f65ee26e6f" style="width: 100.0%; height: 100.0%;">Мещанский - Cluster 1</div>')[0];
+                popup_ceeedf404a3f45449404adb2a9fa941e.setContent(html_b4635f173c5247b68711d0f65ee26e6f);
+            
+
+            circle_marker_bb0a262033f7497da767934bad1bbe57.bindPopup(popup_ceeedf404a3f45449404adb2a9fa941e);
+
+            
+        
+    
+            var circle_marker_91c0dfc2a2a54c12936d085a072b9c6b = L.circleMarker(
+                [55.60807,37.5698],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_2c40caf017f64967b8abfd71976a5e11 = L.popup({maxWidth: '300'});
+
+            
+                var html_879ba0678cce4cd5b53ae34f9891e2e7 = $('<div id="html_879ba0678cce4cd5b53ae34f9891e2e7" style="width: 100.0%; height: 100.0%;">Чертаново Центральное - Cluster 1</div>')[0];
+                popup_2c40caf017f64967b8abfd71976a5e11.setContent(html_879ba0678cce4cd5b53ae34f9891e2e7);
+            
+
+            circle_marker_91c0dfc2a2a54c12936d085a072b9c6b.bindPopup(popup_2c40caf017f64967b8abfd71976a5e11);
+
+            
+        
+    
+            var circle_marker_965131367f49436bb90680ef2b4c95c9 = L.circleMarker(
+                [55.62009,37.67127],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_eaf2f783e471445a9ce9d5e6c014bfcc = L.popup({maxWidth: '300'});
+
+            
+                var html_d964d340159e44deb4c0d91404ddd4dc = $('<div id="html_d964d340159e44deb4c0d91404ddd4dc" style="width: 100.0%; height: 100.0%;">Орехово-Борисово Северное - Cluster 1</div>')[0];
+                popup_eaf2f783e471445a9ce9d5e6c014bfcc.setContent(html_d964d340159e44deb4c0d91404ddd4dc);
+            
+
+            circle_marker_965131367f49436bb90680ef2b4c95c9.bindPopup(popup_eaf2f783e471445a9ce9d5e6c014bfcc);
+
+            
+        
+    
+            var circle_marker_e601cabda41d4845879227cd5d041628 = L.circleMarker(
+                [55.66201,37.43227],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_d8c588abee8941d2a36ea2b952d069a1 = L.popup({maxWidth: '300'});
+
+            
+                var html_b9edf8382c0a426fa0625b9b409e70c0 = $('<div id="html_b9edf8382c0a426fa0625b9b409e70c0" style="width: 100.0%; height: 100.0%;">Тропарёво-Никулино - Cluster 1</div>')[0];
+                popup_d8c588abee8941d2a36ea2b952d069a1.setContent(html_b9edf8382c0a426fa0625b9b409e70c0);
+            
+
+            circle_marker_e601cabda41d4845879227cd5d041628.bindPopup(popup_d8c588abee8941d2a36ea2b952d069a1);
+
+            
+        
+    
+            var circle_marker_16fd565d30d3465b99496c7dfc17c1be = L.circleMarker(
+                [55.45162,36.80357],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_bc456120c7e64571b45f1943e15edb44 = L.popup({maxWidth: '300'});
+
+            
+                var html_b56277526b914d1396fa7b54af05723a = $('<div id="html_b56277526b914d1396fa7b54af05723a" style="width: 100.0%; height: 100.0%;">Новофёдоровское - Cluster 1</div>')[0];
+                popup_bc456120c7e64571b45f1943e15edb44.setContent(html_b56277526b914d1396fa7b54af05723a);
+            
+
+            circle_marker_16fd565d30d3465b99496c7dfc17c1be.bindPopup(popup_bc456120c7e64571b45f1943e15edb44);
+
+            
+        
+    
+            var circle_marker_c77181e081254a5fbc75faefbde28960 = L.circleMarker(
+                [55.63705,37.45572],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_e432366fc96f4602a67058f026136725 = L.popup({maxWidth: '300'});
+
+            
+                var html_0f20e6e5c462407abbc3abe4505430a7 = $('<div id="html_0f20e6e5c462407abbc3abe4505430a7" style="width: 100.0%; height: 100.0%;">Тёплый Стан - Cluster 2</div>')[0];
+                popup_e432366fc96f4602a67058f026136725.setContent(html_0f20e6e5c462407abbc3abe4505430a7);
+            
+
+            circle_marker_c77181e081254a5fbc75faefbde28960.bindPopup(popup_e432366fc96f4602a67058f026136725);
+
+            
+        
+    
+            var circle_marker_36385473d19e4e0da03c964c42ba39df = L.circleMarker(
+                [55.8873,37.5674],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_9277359bfbd04922a981c5d1a73942d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_25332f7f03ff4a0cb6266f8f36528819 = $('<div id="html_25332f7f03ff4a0cb6266f8f36528819" style="width: 100.0%; height: 100.0%;">Алтуфьевский - Cluster 2</div>')[0];
+                popup_9277359bfbd04922a981c5d1a73942d9.setContent(html_25332f7f03ff4a0cb6266f8f36528819);
+            
+
+            circle_marker_36385473d19e4e0da03c964c42ba39df.bindPopup(popup_9277359bfbd04922a981c5d1a73942d9);
+
+            
+        
+    
+            var circle_marker_1a3e9a267a4a49869b90d582c5437d43 = L.circleMarker(
+                [55.63268,37.57727],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_9cbf74ba63ac4058a40accd812f2ef9d = L.popup({maxWidth: '300'});
+
+            
+                var html_ad0856e90be3498b8341b3cd8918027e = $('<div id="html_ad0856e90be3498b8341b3cd8918027e" style="width: 100.0%; height: 100.0%;">Чертаново Северное - Cluster 2</div>')[0];
+                popup_9cbf74ba63ac4058a40accd812f2ef9d.setContent(html_ad0856e90be3498b8341b3cd8918027e);
+            
+
+            circle_marker_1a3e9a267a4a49869b90d582c5437d43.bindPopup(popup_9cbf74ba63ac4058a40accd812f2ef9d);
+
+            
+        
+    
+            var circle_marker_40b3c1e546854ffc8e0d9bd8c28b5268 = L.circleMarker(
+                [55.88304,37.61422],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_a792f56b5e034c39bdf805262884fdb5 = L.popup({maxWidth: '300'});
+
+            
+                var html_e83b9a939c6f4220a9f3f20d02b85bab = $('<div id="html_e83b9a939c6f4220a9f3f20d02b85bab" style="width: 100.0%; height: 100.0%;">Южное Медведково - Cluster 2</div>')[0];
+                popup_a792f56b5e034c39bdf805262884fdb5.setContent(html_e83b9a939c6f4220a9f3f20d02b85bab);
+            
+
+            circle_marker_40b3c1e546854ffc8e0d9bd8c28b5268.bindPopup(popup_a792f56b5e034c39bdf805262884fdb5);
+
+            
+        
+    
+            var circle_marker_e78f7531cffc48159173ae5ba7b0d492 = L.circleMarker(
+                [55.57115,37.24743],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_a9d6911d4d614bb59ac21d9b77dc9b36 = L.popup({maxWidth: '300'});
+
+            
+                var html_4ea535c01de143cb84672bab82f0d858 = $('<div id="html_4ea535c01de143cb84672bab82f0d858" style="width: 100.0%; height: 100.0%;">Филимонковское - Cluster 2</div>')[0];
+                popup_a9d6911d4d614bb59ac21d9b77dc9b36.setContent(html_4ea535c01de143cb84672bab82f0d858);
+            
+
+            circle_marker_e78f7531cffc48159173ae5ba7b0d492.bindPopup(popup_a9d6911d4d614bb59ac21d9b77dc9b36);
+
+            
+        
+    
+            var circle_marker_dd132290f24646879788bfca6bfe0df1 = L.circleMarker(
+                [55.64001,37.62509],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_5efc944f3d164cd1a5bbc996a250dcf1 = L.popup({maxWidth: '300'});
+
+            
+                var html_31c9a0b15dd54af09ff786a2099214cf = $('<div id="html_31c9a0b15dd54af09ff786a2099214cf" style="width: 100.0%; height: 100.0%;">Царицыно - Cluster 2</div>')[0];
+                popup_5efc944f3d164cd1a5bbc996a250dcf1.setContent(html_31c9a0b15dd54af09ff786a2099214cf);
+            
+
+            circle_marker_dd132290f24646879788bfca6bfe0df1.bindPopup(popup_5efc944f3d164cd1a5bbc996a250dcf1);
+
+            
+        
+    
+            var circle_marker_c2acfc190a814f039763e43bc99cf989 = L.circleMarker(
+                [55.83717,37.50491],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_2566e7404a5e443984557e105859a208 = L.popup({maxWidth: '300'});
+
+            
+                var html_04355ed7d29f4b428fc6812b5c543059 = $('<div id="html_04355ed7d29f4b428fc6812b5c543059" style="width: 100.0%; height: 100.0%;">Коптево - Cluster 2</div>')[0];
+                popup_2566e7404a5e443984557e105859a208.setContent(html_04355ed7d29f4b428fc6812b5c543059);
+            
+
+            circle_marker_c2acfc190a814f039763e43bc99cf989.bindPopup(popup_2566e7404a5e443984557e105859a208);
+
+            
+        
+    
+            var circle_marker_08e09b2c955f4a879be9126c030d9da3 = L.circleMarker(
+                [55.61051,37.64076],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_db63e68d781b4160a47c75e5d82d1a08 = L.popup({maxWidth: '300'});
+
+            
+                var html_db351d0f44e842ab8fb8fb4153482ffe = $('<div id="html_db351d0f44e842ab8fb8fb4153482ffe" style="width: 100.0%; height: 100.0%;">Бирюлёво Восточное - Cluster 2</div>')[0];
+                popup_db63e68d781b4160a47c75e5d82d1a08.setContent(html_db351d0f44e842ab8fb8fb4153482ffe);
+            
+
+            circle_marker_08e09b2c955f4a879be9126c030d9da3.bindPopup(popup_db63e68d781b4160a47c75e5d82d1a08);
+
+            
+        
+    
+            var circle_marker_91b62467da6d4993b2c388c2cf0b92e1 = L.circleMarker(
+                [55.64855,37.78345],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_92ac1d381e4e4bf292dc0a1b6d8e295f = L.popup({maxWidth: '300'});
+
+            
+                var html_d8de92c87d9c4f4f9eb21338113b2cd4 = $('<div id="html_d8de92c87d9c4f4f9eb21338113b2cd4" style="width: 100.0%; height: 100.0%;">Капотня - Cluster 2</div>')[0];
+                popup_92ac1d381e4e4bf292dc0a1b6d8e295f.setContent(html_d8de92c87d9c4f4f9eb21338113b2cd4);
+            
+
+            circle_marker_91b62467da6d4993b2c388c2cf0b92e1.bindPopup(popup_92ac1d381e4e4bf292dc0a1b6d8e295f);
+
+            
+        
+    
+            var circle_marker_444d9e4725b94a4e95856f2d308b8deb = L.circleMarker(
+                [55.75075,37.67053],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_77fdbae379d04e9cb9f33d231ced3522 = L.popup({maxWidth: '300'});
+
+            
+                var html_d77236d6d9784f01b1eb5ab550979f05 = $('<div id="html_d77236d6d9784f01b1eb5ab550979f05" style="width: 100.0%; height: 100.0%;">Лефортово - Cluster 2</div>')[0];
+                popup_77fdbae379d04e9cb9f33d231ced3522.setContent(html_d77236d6d9784f01b1eb5ab550979f05);
+            
+
+            circle_marker_444d9e4725b94a4e95856f2d308b8deb.bindPopup(popup_77fdbae379d04e9cb9f33d231ced3522);
+
+            
+        
+    
+            var circle_marker_aec02d2675394826bb88e994dacb95a4 = L.circleMarker(
+                [55.7878,37.743],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_b316223b422141cea22f62847463f59f = L.popup({maxWidth: '300'});
+
+            
+                var html_83fd24a198f34bf89cd5017d34f81ab7 = $('<div id="html_83fd24a198f34bf89cd5017d34f81ab7" style="width: 100.0%; height: 100.0%;">Измайлово - Cluster 2</div>')[0];
+                popup_b316223b422141cea22f62847463f59f.setContent(html_83fd24a198f34bf89cd5017d34f81ab7);
+            
+
+            circle_marker_aec02d2675394826bb88e994dacb95a4.bindPopup(popup_b316223b422141cea22f62847463f59f);
+
+            
+        
+    
+            var circle_marker_4a2d3b75cca744149c4357a6d75e1d02 = L.circleMarker(
+                [55.67973,37.51166],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_962b65e51a9548b6b45580418e669264 = L.popup({maxWidth: '300'});
+
+            
+                var html_0d34a3851a8c4a5c91c481902dcec107 = $('<div id="html_0d34a3851a8c4a5c91c481902dcec107" style="width: 100.0%; height: 100.0%;">Ломоносовский - Cluster 2</div>')[0];
+                popup_962b65e51a9548b6b45580418e669264.setContent(html_0d34a3851a8c4a5c91c481902dcec107);
+            
+
+            circle_marker_4a2d3b75cca744149c4357a6d75e1d02.bindPopup(popup_962b65e51a9548b6b45580418e669264);
+
+            
+        
+    
+            var circle_marker_215caefed6bf4f58a7d71765638a422b = L.circleMarker(
+                [55.83874,37.67021],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_935c86e021264ccaa12f75816d365e73 = L.popup({maxWidth: '300'});
+
+            
+                var html_0a33b04d24ba4f6db3fa53dbf28dbdbb = $('<div id="html_0a33b04d24ba4f6db3fa53dbf28dbdbb" style="width: 100.0%; height: 100.0%;">Метрогородок - Cluster 2</div>')[0];
+                popup_935c86e021264ccaa12f75816d365e73.setContent(html_0a33b04d24ba4f6db3fa53dbf28dbdbb);
+            
+
+            circle_marker_215caefed6bf4f58a7d71765638a422b.bindPopup(popup_935c86e021264ccaa12f75816d365e73);
+
+            
+        
+    
+            var circle_marker_dd3de2dfc2e74a05946a1f4a31bf90a8 = L.circleMarker(
+                [55.84595,37.33204],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_587de1425bb1449184a84938e029744f = L.popup({maxWidth: '300'});
+
+            
+                var html_e785324fdabe44f8898542bc1009bbf0 = $('<div id="html_e785324fdabe44f8898542bc1009bbf0" style="width: 100.0%; height: 100.0%;">Митино - Cluster 2</div>')[0];
+                popup_587de1425bb1449184a84938e029744f.setContent(html_e785324fdabe44f8898542bc1009bbf0);
+            
+
+            circle_marker_dd3de2dfc2e74a05946a1f4a31bf90a8.bindPopup(popup_587de1425bb1449184a84938e029744f);
+
+            
+        
+    
+            var circle_marker_cde1015e2cb1409aad57ca1dc5351f35 = L.circleMarker(
+                [55.69073,37.62186],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_b80c3772f9664635ae9bb65a229fe1ae = L.popup({maxWidth: '300'});
+
+            
+                var html_e0868cd4152e4a5fb8fdd0a222ca2338 = $('<div id="html_e0868cd4152e4a5fb8fdd0a222ca2338" style="width: 100.0%; height: 100.0%;">Нагатино-Садовники - Cluster 2</div>')[0];
+                popup_b80c3772f9664635ae9bb65a229fe1ae.setContent(html_e0868cd4152e4a5fb8fdd0a222ca2338);
+            
+
+            circle_marker_cde1015e2cb1409aad57ca1dc5351f35.bindPopup(popup_b80c3772f9664635ae9bb65a229fe1ae);
+
+            
+        
+    
+            var circle_marker_e50c0238a88c456a944d4954c0f3654a = L.circleMarker(
+                [55.69035,37.60351],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_8e181bf504ff495da26ab483b1b54605 = L.popup({maxWidth: '300'});
+
+            
+                var html_82f3d15abf6e4d81af60ff7a3b8ca183 = $('<div id="html_82f3d15abf6e4d81af60ff7a3b8ca183" style="width: 100.0%; height: 100.0%;">Нагорный - Cluster 2</div>')[0];
+                popup_8e181bf504ff495da26ab483b1b54605.setContent(html_82f3d15abf6e4d81af60ff7a3b8ca183);
+            
+
+            circle_marker_e50c0238a88c456a944d4954c0f3654a.bindPopup(popup_8e181bf504ff495da26ab483b1b54605);
+
+            
+        
+    
+            var circle_marker_03073fb6261b468aa9c2d8976b5d07a8 = L.circleMarker(
+                [55.70626,37.90613],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_157ee491fefa4253bc0843f6cbd7ed0e = L.popup({maxWidth: '300'});
+
+            
+                var html_2ca6a6539f0e4cb8b510ebf03c844c5d = $('<div id="html_2ca6a6539f0e4cb8b510ebf03c844c5d" style="width: 100.0%; height: 100.0%;">Некрасовка - Cluster 2</div>')[0];
+                popup_157ee491fefa4253bc0843f6cbd7ed0e.setContent(html_2ca6a6539f0e4cb8b510ebf03c844c5d);
+            
+
+            circle_marker_03073fb6261b468aa9c2d8976b5d07a8.bindPopup(popup_157ee491fefa4253bc0843f6cbd7ed0e);
+
+            
+        
+    
+            var circle_marker_39cc8aed7b82401289af503957f8b60f = L.circleMarker(
+                [55.83139,37.53178],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_ee60c12566074df794a89e2c642a178b = L.popup({maxWidth: '300'});
+
+            
+                var html_a495b31c84b04103a5f57dc64b993736 = $('<div id="html_a495b31c84b04103a5f57dc64b993736" style="width: 100.0%; height: 100.0%;">Тимирязевский - Cluster 2</div>')[0];
+                popup_ee60c12566074df794a89e2c642a178b.setContent(html_a495b31c84b04103a5f57dc64b993736);
+            
+
+            circle_marker_39cc8aed7b82401289af503957f8b60f.bindPopup(popup_ee60c12566074df794a89e2c642a178b);
+
+            
+        
+    
+            var circle_marker_a95964e6b77f4755ac9784fc7c26d6c4 = L.circleMarker(
+                [55.63984,37.32979],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_b677ef8e996246bdab82ed555416ce0e = L.popup({maxWidth: '300'});
+
+            
+                var html_95cc2a8231c442e0ba33cfb9e3308520 = $('<div id="html_95cc2a8231c442e0ba33cfb9e3308520" style="width: 100.0%; height: 100.0%;">Ново-Переделкино - Cluster 2</div>')[0];
+                popup_b677ef8e996246bdab82ed555416ce0e.setContent(html_95cc2a8231c442e0ba33cfb9e3308520);
+            
+
+            circle_marker_a95964e6b77f4755ac9784fc7c26d6c4.bindPopup(popup_b677ef8e996246bdab82ed555416ce0e);
+
+            
+        
+    
+            var circle_marker_6ecad81f893a42c3b29b0adcb6a0132d = L.circleMarker(
+                [55.73049,37.84042],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_59b9c03eaa9947fa87afdef35406d0ac = L.popup({maxWidth: '300'});
+
+            
+                var html_c20cf55420ae4769bc6a13f86f818edd = $('<div id="html_c20cf55420ae4769bc6a13f86f818edd" style="width: 100.0%; height: 100.0%;">Новокосино - Cluster 2</div>')[0];
+                popup_59b9c03eaa9947fa87afdef35406d0ac.setContent(html_c20cf55420ae4769bc6a13f86f818edd);
+            
+
+            circle_marker_6ecad81f893a42c3b29b0adcb6a0132d.bindPopup(popup_59b9c03eaa9947fa87afdef35406d0ac);
+
+            
+        
+    
+            var circle_marker_eee80ad645fd486a9a33565ea7789176 = L.circleMarker(
+                [55.64946,37.48247],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_c5fa93189add4103b273b0d652cf65c8 = L.popup({maxWidth: '300'});
+
+            
+                var html_1c04e5604eed49a3937c98788f3fd955 = $('<div id="html_1c04e5604eed49a3937c98788f3fd955" style="width: 100.0%; height: 100.0%;">Обручевский - Cluster 2</div>')[0];
+                popup_c5fa93189add4103b273b0d652cf65c8.setContent(html_1c04e5604eed49a3937c98788f3fd955);
+            
+
+            circle_marker_eee80ad645fd486a9a33565ea7789176.bindPopup(popup_c5fa93189add4103b273b0d652cf65c8);
+
+            
+        
+    
+            var circle_marker_f8ab900e526b46cdaecb9afa144b21b2 = L.circleMarker(
+                [55.81356,37.84533],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_3a909e48747448e2bb8def9283f1b84e = L.popup({maxWidth: '300'});
+
+            
+                var html_558d506715ea4214a307b8f0a884b308 = $('<div id="html_558d506715ea4214a307b8f0a884b308" style="width: 100.0%; height: 100.0%;">Восточный - Cluster 2</div>')[0];
+                popup_3a909e48747448e2bb8def9283f1b84e.setContent(html_558d506715ea4214a307b8f0a884b308);
+            
+
+            circle_marker_f8ab900e526b46cdaecb9afa144b21b2.bindPopup(popup_3a909e48747448e2bb8def9283f1b84e);
+
+            
+        
+    
+            var circle_marker_6e501823925e458197b0fdf0cbd17e83 = L.circleMarker(
+                [55.83779,37.47168],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_fb1a14d31d794707983ce1c108e24042 = L.popup({maxWidth: '300'});
+
+            
+                var html_564b99dfc2df49479e5570ebd1c99d48 = $('<div id="html_564b99dfc2df49479e5570ebd1c99d48" style="width: 100.0%; height: 100.0%;">Войковский - Cluster 2</div>')[0];
+                popup_fb1a14d31d794707983ce1c108e24042.setContent(html_564b99dfc2df49479e5570ebd1c99d48);
+            
+
+            circle_marker_6e501823925e458197b0fdf0cbd17e83.bindPopup(popup_fb1a14d31d794707983ce1c108e24042);
+
+            
+        
+    
+            var circle_marker_d3da37d27e3347e282db1680f0deba3c = L.circleMarker(
+                [55.80217,37.75085],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_e128c1f641554c4084e95282531cd7fc = L.popup({maxWidth: '300'});
+
+            
+                var html_53eae670a8db406eae03b3392adc809c = $('<div id="html_53eae670a8db406eae03b3392adc809c" style="width: 100.0%; height: 100.0%;">Северное Измайлово - Cluster 2</div>')[0];
+                popup_e128c1f641554c4084e95282531cd7fc.setContent(html_53eae670a8db406eae03b3392adc809c);
+            
+
+            circle_marker_d3da37d27e3347e282db1680f0deba3c.bindPopup(popup_e128c1f641554c4084e95282531cd7fc);
+
+            
+        
+    
+            var circle_marker_404a942045df45d0a359985faac0aeb9 = L.circleMarker(
+                [55.88561,37.61965],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_135f5acf79434674b12db222f755d4c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_fc774b40a64944a886af0da10b83f219 = $('<div id="html_fc774b40a64944a886af0da10b83f219" style="width: 100.0%; height: 100.0%;">Северное Медведково - Cluster 2</div>')[0];
+                popup_135f5acf79434674b12db222f755d4c4.setContent(html_fc774b40a64944a886af0da10b83f219);
+            
+
+            circle_marker_404a942045df45d0a359985faac0aeb9.bindPopup(popup_135f5acf79434674b12db222f755d4c4);
+
+            
+        
+    
+            var circle_marker_81c5ea8874a7466889e932f827ee371c = L.circleMarker(
+                [55.73427,37.7673],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_ab5a44aa4100471f898d6ca964e9e8cd = L.popup({maxWidth: '300'});
+
+            
+                var html_526cdfe1565340618994f09f28c37b0f = $('<div id="html_526cdfe1565340618994f09f28c37b0f" style="width: 100.0%; height: 100.0%;">Вешняки - Cluster 2</div>')[0];
+                popup_ab5a44aa4100471f898d6ca964e9e8cd.setContent(html_526cdfe1565340618994f09f28c37b0f);
+            
+
+            circle_marker_81c5ea8874a7466889e932f827ee371c.bindPopup(popup_ab5a44aa4100471f898d6ca964e9e8cd);
+
+            
+        
+    
+            var circle_marker_691fd9d843be458fa9199dad438b4bc7 = L.circleMarker(
+                [55.83874,37.67021],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_1ca27ae4f8554a37a040c54a891888bb = L.popup({maxWidth: '300'});
+
+            
+                var html_3daf4d15db9d4dac9289657a575ed4ca = $('<div id="html_3daf4d15db9d4dac9289657a575ed4ca" style="width: 100.0%; height: 100.0%;">Богородское - Cluster 2</div>')[0];
+                popup_1ca27ae4f8554a37a040c54a891888bb.setContent(html_3daf4d15db9d4dac9289657a575ed4ca);
+            
+
+            circle_marker_691fd9d843be458fa9199dad438b4bc7.bindPopup(popup_1ca27ae4f8554a37a040c54a891888bb);
+
+            
+        
+    
+            var circle_marker_5281cd3510d1417d9c4dd2e4230711fa = L.circleMarker(
+                [55.79036,37.36726],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_7c64252b6b8a464f93fd6728c029e067 = L.popup({maxWidth: '300'});
+
+            
+                var html_bb2c4ee942054d819b512ac41634df5d = $('<div id="html_bb2c4ee942054d819b512ac41634df5d" style="width: 100.0%; height: 100.0%;">Строгино - Cluster 2</div>')[0];
+                popup_7c64252b6b8a464f93fd6728c029e067.setContent(html_bb2c4ee942054d819b512ac41634df5d);
+            
+
+            circle_marker_5281cd3510d1417d9c4dd2e4230711fa.bindPopup(popup_7c64252b6b8a464f93fd6728c029e067);
+
+            
+        
+    
+            var circle_marker_3652af76ff364375ab1312d5d01cd882 = L.circleMarker(
+                [55.7367,37.77321],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_457da02812d648318692633c27795ef4 = L.popup({maxWidth: '300'});
+
+            
+                var html_55a0aa03c7b5479fb5a84f511d021813 = $('<div id="html_55a0aa03c7b5479fb5a84f511d021813" style="width: 100.0%; height: 100.0%;">Новогиреево - Cluster 2</div>')[0];
+                popup_457da02812d648318692633c27795ef4.setContent(html_55a0aa03c7b5479fb5a84f511d021813);
+            
+
+            circle_marker_3652af76ff364375ab1312d5d01cd882.bindPopup(popup_457da02812d648318692633c27795ef4);
+
+            
+        
+    
+            var circle_marker_cea64527fb51452ab209656abb57a83d = L.circleMarker(
+                [55.67887,37.47371],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_f1b804de56e648dfbec11f9003a134f4);
+            
+    
+            var popup_3091eff822e04a10a3901113d0e4d86e = L.popup({maxWidth: '300'});
+
+            
+                var html_8cc14d26a05b4824babe0986cff3bc63 = $('<div id="html_8cc14d26a05b4824babe0986cff3bc63" style="width: 100.0%; height: 100.0%;">Проспект Вернадского - Cluster 2</div>')[0];
+                popup_3091eff822e04a10a3901113d0e4d86e.setContent(html_8cc14d26a05b4824babe0986cff3bc63);
+            
+
+            circle_marker_cea64527fb51452ab209656abb57a83d.bindPopup(popup_3091eff822e04a10a3901113d0e4d86e);
+
+            
+        
+</script>
